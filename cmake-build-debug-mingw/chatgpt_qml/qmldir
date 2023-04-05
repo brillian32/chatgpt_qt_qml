@@ -1,0 +1,4 @@
+module chatgpt_qml
+typeinfo appchatgpt_qml.qmltypes
+prefer :/chatgpt_qml/
+

@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "openAIAPI",
+            "object": true,
+            "qualifiedClassName": "openAIAPI",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "openAIAPI.h",
+    "outputRevision": 68
+}

@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/chatgpt_qml">
+    <file alias="qmldir">C:/Users/17305/Documents/chatgpt_qml/cmake-build-debug-mingw/chatgpt_qml/qmldir</file>
+  </qresource>
+</RCC>
+

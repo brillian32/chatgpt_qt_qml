@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\17305\Documents\chatgpt_qml\cmake-build-debug-mingw\appchatgpt_qml_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\17305\Documents\chatgpt_qml\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\17305\Documents\chatgpt_qml\cmake-build-debug-mingw\appchatgpt_qml_qmltyperegistrations.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\17305\Documents\chatgpt_qml\cmake-build-debug-mingw\.rcc\qrc_qmake_chatgpt_qml.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\17305\Documents\chatgpt_qml\cmake-build-debug-mingw\.rcc\qmlcache\appchatgpt_qml_qmlcache_loader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\17305\Documents\chatgpt_qml\cmake-build-debug-mingw\.rcc\qmlcache\appchatgpt_qml_main_qml.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\17305\Documents\chatgpt_qml\cmake-build-debug-mingw\.rcc\qrc_appchatgpt_qml_raw_qml_0.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\17305\Documents\chatgpt_qml\cmake-build-debug-mingw\appchatgpt_qml_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\17305\Documents\chatgpt_qml\cmake-build-debug-mingw\appchatgpt_qml_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\17305\Documents\chatgpt_qml\cmake-build-debug-mingw\appchatgpt_qml_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\17305\Documents\chatgpt_qml\cmake-build-debug-mingw\ddf_appchatgpt_qml.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\17305\Documents\chatgpt_qml\cmake-build-debug-mingw\CMakeFiles\2ac007d91d500534be1df85003d330dc\qt6appchatgpt_qml_metatypes.json.gen.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\17305\Documents\chatgpt_qml\cmake-build-debug-mingw\CMakeFiles\9b057e2d8256212f2b20eb57b6477f60\appchatgpt_qml_qmltyperegistrations.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\17305\Documents\chatgpt_qml\cmake-build-debug-mingw\CMakeFiles\1d651a71ff2e9c0ade0bcb4a4e53d1d5\qrc_qmake_chatgpt_qml.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\17305\Documents\chatgpt_qml\cmake-build-debug-mingw\CMakeFiles\c385ec327c93a89e8e40cb45a6ed83cd\appchatgpt_qml_main_qml.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\17305\Documents\chatgpt_qml\cmake-build-debug-mingw\CMakeFiles\1d651a71ff2e9c0ade0bcb4a4e53d1d5\qrc_appchatgpt_qml_raw_qml_0.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\17305\Documents\chatgpt_qml\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\17305\Documents\chatgpt_qml\cmake-build-debug-mingw\meta_types\qt6appchatgpt_qml_metatypes.json.gen" />
+    <None Include="C:\Users\17305\Documents\chatgpt_qml\main.qml" />
+    <None Include="C:\Qt\6.2.4\msvc2019_64\lib\metatypes\qt6core_metatypes.json" />
+    <None Include="C:\Qt\6.2.4\msvc2019_64\lib\metatypes\qt6qml_metatypes.json" />
+    <None Include="C:\Qt\6.2.4\msvc2019_64\lib\metatypes\qt6network_metatypes.json" />
+    <None Include="C:\Qt\6.2.4\msvc2019_64\lib\metatypes\qt6quick_metatypes.json" />
+    <None Include="C:\Qt\6.2.4\msvc2019_64\lib\metatypes\qt6gui_metatypes.json" />
+    <None Include="C:\Qt\6.2.4\msvc2019_64\lib\metatypes\qt6qmlmodels_metatypes.json" />
+    <None Include="C:\Qt\6.2.4\msvc2019_64\lib\metatypes\qt6opengl_metatypes.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{ED93C4F4-68BF-31B3-BACF-769F209789C2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C3660308-0043-3B2F-8525-F6A1D161110A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{19F4F3B2-6F50-3033-9D61-1F427E8AE78A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
