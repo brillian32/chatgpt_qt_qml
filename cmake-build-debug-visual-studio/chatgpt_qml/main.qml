@@ -100,7 +100,7 @@ Window {
         id: rectMessageEdit
         border.color: "#2e2f30"
         border.width: 2
-        height: inputData.height
+        height: inputData.height + 8
         radius: 6
         width: 350
         x: 10
