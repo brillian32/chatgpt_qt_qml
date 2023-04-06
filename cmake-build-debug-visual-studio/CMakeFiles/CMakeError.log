@@ -1,14 +1,14 @@
 Performing C++ SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
-Change Dir: C:/Users/17305/Documents/chatgpt_qml/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-74ga56
+Change Dir: C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-bpwrqs
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_6aaea.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 17.2.1+52cd2da31
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_5adc5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 17.2.1+52cd2da31
 版权所有(C) Microsoft Corporation。保留所有权利。
 
   用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.32.31332 版
-  版权所有(C) Microsoft Corporation。保留所有权利。
   src.cxx
-  cl /c /I"C:\src\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6aaea.dir\Debug\\" /Fd"cmTC_6aaea.dir\Debug\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\Users\17305\Documents\chatgpt_qml\cmake-build-debug-visual-studio\CMakeFiles\CMakeScratch\TryCompile-74ga56\src.cxx"
-C:\Users\17305\Documents\chatgpt_qml\cmake-build-debug-visual-studio\CMakeFiles\CMakeScratch\TryCompile-74ga56\src.cxx(1,10): fatal error C1083: 无法打开包括文件: “pthread.h”: No such file or directory [C:\Users\17305\Documents\chatgpt_qml\cmake-build-debug-visual-studio\CMakeFiles\CMakeScratch\TryCompile-74ga56\cmTC_6aaea.vcxproj]
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /I"C:\src\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5adc5.dir\Debug\\" /Fd"cmTC_5adc5.dir\Debug\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug-visual-studio\CMakeFiles\CMakeScratch\TryCompile-bpwrqs\src.cxx"
+C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug-visual-studio\CMakeFiles\CMakeScratch\TryCompile-bpwrqs\src.cxx(1,10): fatal error C1083: 无法打开包括文件: “pthread.h”: No such file or directory [C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug-visual-studio\CMakeFiles\CMakeScratch\TryCompile-bpwrqs\cmTC_5adc5.vcxproj]
 
 
 Source file was:
@@ -34,30 +34,30 @@ int main(void)
 
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: C:/Users/17305/Documents/chatgpt_qml/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-qlw9u2
+Change Dir: C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-4o0uyr
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_784a8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 17.2.1+52cd2da31
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_f2921.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 17.2.1+52cd2da31
 版权所有(C) Microsoft Corporation。保留所有权利。
 
   用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.32.31332 版
-  CheckFunctionExists.cxx
   版权所有(C) Microsoft Corporation。保留所有权利。
-  cl /c /I"C:\src\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_784a8.dir\Debug\\" /Fd"cmTC_784a8.dir\Debug\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\Users\17305\Documents\chatgpt_qml\cmake-build-debug-visual-studio\CMakeFiles\CMakeScratch\TryCompile-qlw9u2\CheckFunctionExists.cxx"
-LINK : fatal error LNK1104: 无法打开文件“pthreads.lib” [C:\Users\17305\Documents\chatgpt_qml\cmake-build-debug-visual-studio\CMakeFiles\CMakeScratch\TryCompile-qlw9u2\cmTC_784a8.vcxproj]
+  CheckFunctionExists.cxx
+  cl /c /I"C:\src\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f2921.dir\Debug\\" /Fd"cmTC_f2921.dir\Debug\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug-visual-studio\CMakeFiles\CMakeScratch\TryCompile-4o0uyr\CheckFunctionExists.cxx"
+LINK : fatal error LNK1104: 无法打开文件“pthreads.lib” [C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug-visual-studio\CMakeFiles\CMakeScratch\TryCompile-4o0uyr\cmTC_f2921.vcxproj]
 
 
 
 Determining if the function pthread_create exists in the pthread failed with the following output:
-Change Dir: C:/Users/17305/Documents/chatgpt_qml/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-dpq9z6
+Change Dir: C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-xwldty
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_f53a1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 17.2.1+52cd2da31
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_41e79.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 17.2.1+52cd2da31
 版权所有(C) Microsoft Corporation。保留所有权利。
 
   用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.32.31332 版
-  CheckFunctionExists.cxx
   版权所有(C) Microsoft Corporation。保留所有权利。
-  cl /c /I"C:\src\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f53a1.dir\Debug\\" /Fd"cmTC_f53a1.dir\Debug\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\Users\17305\Documents\chatgpt_qml\cmake-build-debug-visual-studio\CMakeFiles\CMakeScratch\TryCompile-dpq9z6\CheckFunctionExists.cxx"
-LINK : fatal error LNK1104: 无法打开文件“pthread.lib” [C:\Users\17305\Documents\chatgpt_qml\cmake-build-debug-visual-studio\CMakeFiles\CMakeScratch\TryCompile-dpq9z6\cmTC_f53a1.vcxproj]
+  CheckFunctionExists.cxx
+  cl /c /I"C:\src\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_41e79.dir\Debug\\" /Fd"cmTC_41e79.dir\Debug\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug-visual-studio\CMakeFiles\CMakeScratch\TryCompile-xwldty\CheckFunctionExists.cxx"
+LINK : fatal error LNK1104: 无法打开文件“pthread.lib” [C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug-visual-studio\CMakeFiles\CMakeScratch\TryCompile-xwldty\cmTC_41e79.vcxproj]
 
 
 

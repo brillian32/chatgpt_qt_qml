@@ -7,7 +7,7 @@
 *****************************************************************************/
 
 static const unsigned char qt_resource_data[] = {
-  // C:/Users/17305/Documents/chatgpt_qml/cmake-build-debug-mingw/chatgpt_qml/qmldir
+  // C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-mingw/chatgpt_qml/qmldir
   0x0,0x0,0x0,0x4f,
   0x6d,
   0x6f,0x64,0x75,0x6c,0x65,0x20,0x63,0x68,0x61,0x74,0x67,0x70,0x74,0x5f,0x71,0x6d,

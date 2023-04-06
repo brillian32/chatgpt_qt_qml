@@ -10,7 +10,7 @@ find_package(Qt6 6.2 COMPONENTS Quick Network REQUIRED)
 
 qt_add_executable(appchatgpt_qml
     main.cpp
-        openAIAPI.cpp openAIAPI.h)
+        openAIAPI.cpp openAIAPI.h GptResponseParseHelper.h GptResponseParseHelper.cpp)
 
 qt_add_qml_module(appchatgpt_qml
     URI chatgpt_qml

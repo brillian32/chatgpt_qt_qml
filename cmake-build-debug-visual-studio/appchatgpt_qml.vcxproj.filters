@@ -1,69 +1,75 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\17305\Documents\chatgpt_qml\cmake-build-debug-visual-studio\appchatgpt_qml_autogen\mocs_compilation_Debug.cpp">
+    <ClCompile Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug-visual-studio\appchatgpt_qml_autogen\mocs_compilation_Debug.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\17305\Documents\chatgpt_qml\main.cpp">
+    <ClCompile Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\17305\Documents\chatgpt_qml\openAIAPI.cpp">
+    <ClCompile Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\openAIAPI.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\17305\Documents\chatgpt_qml\cmake-build-debug-visual-studio\appchatgpt_qml_qmltyperegistrations.cpp">
+    <ClCompile Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\GptResponseParseHelper.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\17305\Documents\chatgpt_qml\cmake-build-debug-visual-studio\.rcc\qrc_qmake_chatgpt_qml.cpp">
+    <ClCompile Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug-visual-studio\appchatgpt_qml_qmltyperegistrations.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\17305\Documents\chatgpt_qml\cmake-build-debug-visual-studio\.rcc\qmlcache\appchatgpt_qml_qmlcache_loader.cpp">
+    <ClCompile Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug-visual-studio\.rcc\qrc_qmake_chatgpt_qml.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\17305\Documents\chatgpt_qml\cmake-build-debug-visual-studio\.rcc\qmlcache\appchatgpt_qml_main_qml.cpp">
+    <ClCompile Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug-visual-studio\.rcc\qmlcache\appchatgpt_qml_qmlcache_loader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\17305\Documents\chatgpt_qml\cmake-build-debug-visual-studio\.rcc\qrc_appchatgpt_qml_raw_qml_0.cpp">
+    <ClCompile Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug-visual-studio\.rcc\qmlcache\appchatgpt_qml_main_qml.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\17305\Documents\chatgpt_qml\cmake-build-debug-visual-studio\appchatgpt_qml_autogen\mocs_compilation_Release.cpp">
+    <ClCompile Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug-visual-studio\.rcc\qrc_appchatgpt_qml_raw_qml_0.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\17305\Documents\chatgpt_qml\cmake-build-debug-visual-studio\appchatgpt_qml_autogen\mocs_compilation_MinSizeRel.cpp">
+    <ClCompile Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug-visual-studio\appchatgpt_qml_autogen\mocs_compilation_Release.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\17305\Documents\chatgpt_qml\cmake-build-debug-visual-studio\appchatgpt_qml_autogen\mocs_compilation_RelWithDebInfo.cpp">
+    <ClCompile Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug-visual-studio\appchatgpt_qml_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug-visual-studio\appchatgpt_qml_autogen\mocs_compilation_RelWithDebInfo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\17305\Documents\chatgpt_qml\openAIAPI.h">
+    <ClInclude Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\openAIAPI.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\17305\Documents\chatgpt_qml\cmake-build-debug-visual-studio\ddf_appchatgpt_qml.h">
+    <ClInclude Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\GptResponseParseHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug-visual-studio\ddf_appchatgpt_qml.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\17305\Documents\chatgpt_qml\cmake-build-debug-visual-studio\CMakeFiles\15087ede9f1c1a3ca25a0f2169e78edc\qt6appchatgpt_qml_metatypes.json.gen.rule">
+    <CustomBuild Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug-visual-studio\CMakeFiles\37bba8b079f52da021b4d68d90f0d003\qt6appchatgpt_qml_metatypes.json.gen.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\17305\Documents\chatgpt_qml\cmake-build-debug-visual-studio\CMakeFiles\b9e12031fc0bf61b3ee295d734b301d3\appchatgpt_qml_qmltyperegistrations.cpp.rule">
+    <CustomBuild Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug-visual-studio\CMakeFiles\d0fe3efb9c8f52a1d1b20e19d462be82\appchatgpt_qml_qmltyperegistrations.cpp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\17305\Documents\chatgpt_qml\cmake-build-debug-visual-studio\CMakeFiles\aa6e3613eb59b0daf4b4fe4bd38abab0\qrc_qmake_chatgpt_qml.cpp.rule">
+    <CustomBuild Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug-visual-studio\CMakeFiles\94f78f6ba667790d49323a93713d2fbe\qrc_qmake_chatgpt_qml.cpp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\17305\Documents\chatgpt_qml\cmake-build-debug-visual-studio\CMakeFiles\a359a84b4c51e37269a5b0efba316ecf\appchatgpt_qml_main_qml.cpp.rule">
+    <CustomBuild Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug-visual-studio\CMakeFiles\e0998c708bcf481dd5bdc9ca5f4c7846\appchatgpt_qml_main_qml.cpp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\17305\Documents\chatgpt_qml\cmake-build-debug-visual-studio\CMakeFiles\aa6e3613eb59b0daf4b4fe4bd38abab0\qrc_appchatgpt_qml_raw_qml_0.cpp.rule">
+    <CustomBuild Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug-visual-studio\CMakeFiles\94f78f6ba667790d49323a93713d2fbe\qrc_appchatgpt_qml_raw_qml_0.cpp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\17305\Documents\chatgpt_qml\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\17305\Documents\chatgpt_qml\cmake-build-debug-visual-studio\meta_types\qt6appchatgpt_qml_metatypes.json.gen" />
-    <None Include="C:\Users\17305\Documents\chatgpt_qml\main.qml" />
+    <None Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug-visual-studio\meta_types\qt6appchatgpt_qml_metatypes.json.gen" />
+    <None Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\main.qml" />
     <None Include="C:\Qt\6.2.4\msvc2019_64\lib\metatypes\qt6core_metatypes.json" />
     <None Include="C:\Qt\6.2.4\msvc2019_64\lib\metatypes\qt6qml_metatypes.json" />
     <None Include="C:\Qt\6.2.4\msvc2019_64\lib\metatypes\qt6network_metatypes.json" />
@@ -74,13 +80,13 @@
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{36886C38-5C5F-3CA5-847B-65D6DCC50AB9}</UniqueIdentifier>
+      <UniqueIdentifier>{0E3F6B7F-6641-3E72-B67B-38A5BE8E8F95}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{48017DC7-71B0-3BCA-86B5-0D17E65A09D2}</UniqueIdentifier>
+      <UniqueIdentifier>{DB515157-F331-3279-B942-819257FCFB5E}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{9DB2B8A6-948E-3FC1-AAF6-7CA33F0FCEA7}</UniqueIdentifier>
+      <UniqueIdentifier>{478F8CB0-B2FD-3B32-83ED-850B6AA4D34C}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

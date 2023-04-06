@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\17305\Documents\chatgpt_qml\cmake-build-debug-mingw\CMakeFiles\f0338da79e73e2e4d55bd6a31137e9c6\appchatgpt_qml_qmllint.rule">
+    <CustomBuild Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug-mingw\CMakeFiles\94b5948df46831d632c10eb76b33bc3d\appchatgpt_qml_qmllint.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\17305\Documents\chatgpt_qml\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\17305\Documents\chatgpt_qml\cmake-build-debug-mingw\CMakeFiles\appchatgpt_qml_qmllint" />
+    <None Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug-mingw\CMakeFiles\appchatgpt_qml_qmllint" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{ED93C4F4-68BF-31B3-BACF-769F209789C2}</UniqueIdentifier>
+      <UniqueIdentifier>{F140C861-C53D-3319-98D0-B30D78C646C2}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

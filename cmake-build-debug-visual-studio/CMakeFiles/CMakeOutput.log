@@ -9,8 +9,8 @@ The output was:
 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 17.2.1+52cd2da31
 版权所有(C) Microsoft Corporation。保留所有权利。
 
-生成启动时间为 2023/4/5 20:58:40。
-节点 1 上的项目“C:\Users\17305\Documents\chatgpt_qml\cmake-build-debug-visual-studio\CMakeFiles\3.25.2\CompilerIdCXX\CompilerIdCXX.vcxproj”(默认目标)。
+生成启动时间为 2023/4/6 20:47:30。
+节点 1 上的项目“C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug-visual-studio\CMakeFiles\3.25.2\CompilerIdCXX\CompilerIdCXX.vcxproj”(默认目标)。
 PrepareForBuild:
   正在创建目录“Debug\”。
   正在创建目录“Debug\CompilerIdCXX.tlog\”。
@@ -23,13 +23,13 @@ ClCompile:
   CMakeCXXCompilerId.cpp
 Link:
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\src\vcpkg\installed\x64-windows\debug\lib" /LIBPATH:"C:\src\vcpkg\installed\x64-windows\debug\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\src\vcpkg\installed\x64-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
-  CompilerIdCXX.vcxproj -> C:\Users\17305\Documents\chatgpt_qml\cmake-build-debug-visual-studio\CMakeFiles\3.25.2\CompilerIdCXX\CompilerIdCXX.exe
+  CompilerIdCXX.vcxproj -> C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug-visual-studio\CMakeFiles\3.25.2\CompilerIdCXX\CompilerIdCXX.exe
 AppLocalFromInstalled:
-  pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\src\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "C:\Users\17305\Documents\chatgpt_qml\cmake-build-debug-visual-studio\CMakeFiles\3.25.2\CompilerIdCXX\CompilerIdCXX.exe" "C:\src\vcpkg\installed\x64-windows\debug\bin" "Debug\CompilerIdCXX.tlog\CompilerIdCXX.write.1u.tlog" "Debug\vcpkg.applocal.log"
+  pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\src\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug-visual-studio\CMakeFiles\3.25.2\CompilerIdCXX\CompilerIdCXX.exe" "C:\src\vcpkg\installed\x64-windows\debug\bin" "Debug\CompilerIdCXX.tlog\CompilerIdCXX.write.1u.tlog" "Debug\vcpkg.applocal.log"
   'pwsh.exe' 不是内部或外部命令，也不是可运行的程序
   或批处理文件。
-  命令“pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\src\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "C:\Users\17305\Documents\chatgpt_qml\cmake-build-debug-visual-studio\CMakeFiles\3.25.2\CompilerIdCXX\CompilerIdCXX.exe" "C:\src\vcpkg\installed\x64-windows\debug\bin" "Debug\CompilerIdCXX.tlog\CompilerIdCXX.write.1u.tlog" "Debug\vcpkg.applocal.log"”已退出，代码为 9009。
-  "C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\src\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "C:\Users\17305\Documents\chatgpt_qml\cmake-build-debug-visual-studio\CMakeFiles\3.25.2\CompilerIdCXX\CompilerIdCXX.exe" "C:\src\vcpkg\installed\x64-windows\debug\bin" "Debug\CompilerIdCXX.tlog\CompilerIdCXX.write.1u.tlog" "Debug\vcpkg.applocal.log"
+  命令“pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\src\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug-visual-studio\CMakeFiles\3.25.2\CompilerIdCXX\CompilerIdCXX.exe" "C:\src\vcpkg\installed\x64-windows\debug\bin" "Debug\CompilerIdCXX.tlog\CompilerIdCXX.write.1u.tlog" "Debug\vcpkg.applocal.log"”已退出，代码为 9009。
+  "C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\src\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug-visual-studio\CMakeFiles\3.25.2\CompilerIdCXX\CompilerIdCXX.exe" "C:\src\vcpkg\installed\x64-windows\debug\bin" "Debug\CompilerIdCXX.tlog\CompilerIdCXX.write.1u.tlog" "Debug\vcpkg.applocal.log"
 PostBuildEvent:
   for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
   :VCEnd
@@ -37,47 +37,47 @@ PostBuildEvent:
 FinalizeBuildStatus:
   正在删除文件“Debug\CompilerIdCXX.tlog\unsuccessfulbuild”。
   正在对“Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate”执行 Touch 任务。
-已完成生成项目“C:\Users\17305\Documents\chatgpt_qml\cmake-build-debug-visual-studio\CMakeFiles\3.25.2\CompilerIdCXX\CompilerIdCXX.vcxproj”(默认目标)的操作。
+已完成生成项目“C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug-visual-studio\CMakeFiles\3.25.2\CompilerIdCXX\CompilerIdCXX.vcxproj”(默认目标)的操作。
 
 已成功生成。
     0 个警告
     0 个错误
 
-已用时间 00:00:00.88
+已用时间 00:00:00.95
 
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
 
-The CXX compiler identification is MSVC, found in "C:/Users/17305/Documents/chatgpt_qml/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CompilerIdCXX/CompilerIdCXX.exe"
+The CXX compiler identification is MSVC, found in "C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CompilerIdCXX/CompilerIdCXX.exe"
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: C:/Users/17305/Documents/chatgpt_qml/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-b8bp5l
+Change Dir: C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-jrox3y
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_a222c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 17.2.1+52cd2da31
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_50fc8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 17.2.1+52cd2da31
 版权所有(C) Microsoft Corporation。保留所有权利。
 
   用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.32.31332 版
   CMakeCXXCompilerABI.cpp
   版权所有(C) Microsoft Corporation。保留所有权利。
-  cl /c /I"C:\src\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_a222c.dir\Debug\\" /Fd"cmTC_a222c.dir\Debug\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "E:\IDE\apps\CLion\ch-0\231.8109.174\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp"
-  cmTC_a222c.vcxproj -> C:\Users\17305\Documents\chatgpt_qml\cmake-build-debug-visual-studio\CMakeFiles\CMakeScratch\TryCompile-b8bp5l\Debug\cmTC_a222c.exe
+  cl /c /I"C:\src\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_50fc8.dir\Debug\\" /Fd"cmTC_50fc8.dir\Debug\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "E:\IDE\apps\CLion\ch-0\231.8109.174\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp"
+  cmTC_50fc8.vcxproj -> C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug-visual-studio\CMakeFiles\CMakeScratch\TryCompile-jrox3y\Debug\cmTC_50fc8.exe
 
 
 
 Performing C++ SOURCE FILE Test HAVE_STDATOMIC succeeded with the following output:
-Change Dir: C:/Users/17305/Documents/chatgpt_qml/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-a7m1nj
+Change Dir: C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-0o3u9y
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_5d16a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 17.2.1+52cd2da31
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_62f04.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 17.2.1+52cd2da31
 版权所有(C) Microsoft Corporation。保留所有权利。
 
   用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.32.31332 版
-  版权所有(C) Microsoft Corporation。保留所有权利。
   src.cxx
-  cl /c /I"C:\src\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_STDATOMIC /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5d16a.dir\Debug\\" /Fd"cmTC_5d16a.dir\Debug\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\Users\17305\Documents\chatgpt_qml\cmake-build-debug-visual-studio\CMakeFiles\CMakeScratch\TryCompile-a7m1nj\src.cxx"
-C:\Users\17305\Documents\chatgpt_qml\cmake-build-debug-visual-studio\CMakeFiles\CMakeScratch\TryCompile-a7m1nj\src.cxx(17,34): warning C4312: “类型强制转换”: 从“unsigned int”转换到更大的“void *” [C:\Users\17305\Documents\chatgpt_qml\cmake-build-debug-visual-studio\CMakeFiles\CMakeScratch\TryCompile-a7m1nj\cmTC_5d16a.vcxproj]
-  cmTC_5d16a.vcxproj -> C:\Users\17305\Documents\chatgpt_qml\cmake-build-debug-visual-studio\CMakeFiles\CMakeScratch\TryCompile-a7m1nj\Debug\cmTC_5d16a.exe
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /I"C:\src\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_STDATOMIC /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_62f04.dir\Debug\\" /Fd"cmTC_62f04.dir\Debug\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug-visual-studio\CMakeFiles\CMakeScratch\TryCompile-0o3u9y\src.cxx"
+C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug-visual-studio\CMakeFiles\CMakeScratch\TryCompile-0o3u9y\src.cxx(17,34): warning C4312: “类型强制转换”: 从“unsigned int”转换到更大的“void *” [C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug-visual-studio\CMakeFiles\CMakeScratch\TryCompile-0o3u9y\cmTC_62f04.vcxproj]
+  cmTC_62f04.vcxproj -> C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug-visual-studio\CMakeFiles\CMakeScratch\TryCompile-0o3u9y\Debug\cmTC_62f04.exe
 
 
 Source file was:

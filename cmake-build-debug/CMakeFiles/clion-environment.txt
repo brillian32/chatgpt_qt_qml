@@ -1,0 +1,4 @@
+ToolSet: 17.0 (local)@C:\Program Files\Microsoft Visual Studio\2022\Community
+Options: msvc.arch=x86
+
+Options:-DCMAKE_PREFIX_PATH=C:/Qt/6.2.4/msvc2019_64

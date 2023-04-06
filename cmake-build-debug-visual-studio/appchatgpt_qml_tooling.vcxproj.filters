@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\17305\Documents\chatgpt_qml\cmake-build-debug-visual-studio\CMakeFiles\eb09e4f15a448e462a788299c265ad40\main.qml.rule">
+    <CustomBuild Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug-visual-studio\CMakeFiles\0ebe9267bba6f65717859bc5ad7a0e75\main.qml.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\17305\Documents\chatgpt_qml\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\17305\Documents\chatgpt_qml\cmake-build-debug-visual-studio\chatgpt_qml\main.qml" />
+    <None Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug-visual-studio\chatgpt_qml\main.qml" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{36886C38-5C5F-3CA5-847B-65D6DCC50AB9}</UniqueIdentifier>
+      <UniqueIdentifier>{0E3F6B7F-6641-3E72-B67B-38A5BE8E8F95}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

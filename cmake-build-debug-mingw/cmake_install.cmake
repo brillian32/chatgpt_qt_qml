@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/17305/Documents/chatgpt_qml
+# Install script for directory: C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,13 +34,13 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "C:/Users/17305/Documents/chatgpt_qml/cmake-build-debug-mingw/Debug/appchatgpt_qml.exe")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-mingw/Debug/appchatgpt_qml.exe")
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "C:/Users/17305/Documents/chatgpt_qml/cmake-build-debug-mingw/Release/appchatgpt_qml.exe")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-mingw/Release/appchatgpt_qml.exe")
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "C:/Users/17305/Documents/chatgpt_qml/cmake-build-debug-mingw/MinSizeRel/appchatgpt_qml.exe")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-mingw/MinSizeRel/appchatgpt_qml.exe")
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "C:/Users/17305/Documents/chatgpt_qml/cmake-build-debug-mingw/RelWithDebInfo/appchatgpt_qml.exe")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-mingw/RelWithDebInfo/appchatgpt_qml.exe")
   endif()
 endif()
 
@@ -52,5 +52,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/17305/Documents/chatgpt_qml/cmake-build-debug-mingw/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-mingw/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

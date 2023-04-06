@@ -1,0 +1,24 @@
+^C:\USERS\17305\DOCUMENTS\CHATGPT_QML\CHATGPT_QT_QML\CMAKE-BUILD-DEBUG-MINGW\CMAKEFILES\21088EC4A0BA614F925FFF7B4F5BB4FA\MAIN.QML.RULE
+setlocal
+cd C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+E:\IDE\apps\CLion\ch-0\231.8109.174\bin\cmake\win\x64\bin\cmake.exe -E copy main.qml C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-mingw/chatgpt_qml/main.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\17305\DOCUMENTS\CHATGPT_QML\CHATGPT_QT_QML\CMAKELISTS.TXT
+setlocal
+E:\IDE\apps\CLion\ch-0\231.8109.174\bin\cmake\win\x64\bin\cmake.exe -SC:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml -BC:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-mingw --check-stamp-file C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-mingw/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

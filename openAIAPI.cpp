@@ -12,7 +12,7 @@
 #include <QJsonObject>
 #include <QNetworkProxy>
 #include <QJsonArray>
-
+#include "GptResponseParseHelper.h"
 openAIAPI::openAIAPI() {
 
 }
@@ -21,31 +21,30 @@ openAIAPI::~openAIAPI() {
 
 }
 
-bool openAIAPI::startPostRequest( QUrl url)
+void openAIAPI::postRequest( )
 {
+    QUrl openaiUrl("https://api.openai.com/v1/chat/completions");
     QNetworkAccessManager* networkManager = new QNetworkAccessManager(this);
-
     // 设置代理
 #ifdef SET_NET_PROXY
     QNetworkProxy proxy(QNetworkProxy::HttpProxy, "192.168.0.105", 7890);
     networkManager->setProxy(proxy);
 #endif
-    QNetworkRequest request(url);
+    QNetworkRequest request(openaiUrl);
 
     // 设置请求头部信息
     request.setHeader(QNetworkRequest::ContentTypeHeader, "application/json");
-    request.setRawHeader("Authorization", "Bearer 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");
+    request.setRawHeader("Authorization", "Bearer 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");
 
+    QJsonObject _parameters;
+    _parameters.insert("role","system");
+    _parameters.insert("content","尽量用中文回答问题");
     QJsonObject parameters;
     parameters.insert("role","user");
-    parameters.insert("content","What is the OpenAI mission?");
-
-//    parameters.insert("messages", "{ \
-//            "model": "gpt-3.5-turbo",
-//            "messages": [{"role": "user", "content": "What is the OpenAI mission?"}]
-//    });
+    parameters.insert("content",m_msg);
 
     QJsonArray jsonArray;
+    jsonArray.append(_parameters);
     jsonArray.append(parameters);
     // 创建 POST 数据
     QJsonObject postData;
@@ -63,20 +62,28 @@ bool openAIAPI::startPostRequest( QUrl url)
     connect(reply, &QNetworkReply::finished, this, [=]() {
         if (reply->error() == QNetworkReply::NoError) {
             QByteArray response = reply->readAll();
-            // 处理响应数据
-            qDebug() << "Response: " << response;
+
+            //解析response数据
+            GptResponseParseHelper helper(response);
+            auto parseResult = helper.getAnwser();
+
+            // 响应数据
+            emit sigAddMessage(parseResult.first ,parseResult.second);
+            qDebug() << "Response: " << response ;
+            qDebug() << parseResult.first<<":"<<parseResult.second ;
         } else {
             // 处理错误
             qDebug() << "Error: " << reply->errorString();
-            QByteArray response = reply->readAll();
-            // 处理响应数据
-            qDebug() << "Response: " << response;
         }
 
         // 释放资源
         reply->deleteLater();
         networkManager->deleteLater();
     });
-    return false;
+}
+
+void openAIAPI::sendMessage(QString msg) {
+    m_msg = msg;
+    postRequest();
 }
 

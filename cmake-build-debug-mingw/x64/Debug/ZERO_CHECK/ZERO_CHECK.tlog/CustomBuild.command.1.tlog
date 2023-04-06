@@ -1,6 +1,6 @@
-^C:\USERS\17305\DOCUMENTS\CHATGPT_QML\CMAKE-BUILD-DEBUG-MINGW\CMAKEFILES\F0338DA79E73E2E4D55BD6A31137E9C6\GENERATE.STAMP.RULE
+^C:\USERS\17305\DOCUMENTS\CHATGPT_QML\CHATGPT_QT_QML\CMAKE-BUILD-DEBUG-MINGW\CMAKEFILES\94B5948DF46831D632C10EB76B33BC3D\GENERATE.STAMP.RULE
 setlocal
-E:\IDE\apps\CLion\ch-0\231.8109.174\bin\cmake\win\x64\bin\cmake.exe -SC:/Users/17305/Documents/chatgpt_qml -BC:/Users/17305/Documents/chatgpt_qml/cmake-build-debug-mingw --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/17305/Documents/chatgpt_qml/cmake-build-debug-mingw/chatgpt_qml.sln
+E:\IDE\apps\CLion\ch-0\231.8109.174\bin\cmake\win\x64\bin\cmake.exe -SC:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml -BC:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-mingw --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-mingw/chatgpt_qml.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

@@ -1,15 +1,15 @@
 {
-	"BUILD_DIR" : "C:/Users/17305/Documents/chatgpt_qml/cmake-build-debug-visual-studio/appchatgpt_qml_autogen",
-	"CMAKE_BINARY_DIR" : "C:/Users/17305/Documents/chatgpt_qml/cmake-build-debug-visual-studio",
-	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/17305/Documents/chatgpt_qml/cmake-build-debug-visual-studio",
-	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/17305/Documents/chatgpt_qml",
+	"BUILD_DIR" : "C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio/appchatgpt_qml_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml",
 	"CMAKE_EXECUTABLE" : "E:/IDE/apps/CLion/ch-0/231.8109.174/bin/cmake/win/x64/bin/cmake.exe",
 	"CMAKE_LIST_FILES" : 
 	[
-		"C:/Users/17305/Documents/chatgpt_qml/CMakeLists.txt",
-		"C:/Users/17305/Documents/chatgpt_qml/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CMakeSystem.cmake",
+		"C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/CMakeLists.txt",
+		"C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CMakeSystem.cmake",
 		"E:/IDE/apps/CLion/ch-0/231.8109.174/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake",
-		"C:/Users/17305/Documents/chatgpt_qml/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CMakeCXXCompiler.cmake",
+		"C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CMakeCXXCompiler.cmake",
 		"E:/IDE/apps/CLion/ch-0/231.8109.174/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake",
 		"E:/IDE/apps/CLion/ch-0/231.8109.174/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake",
 		"E:/IDE/apps/CLion/ch-0/231.8109.174/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake",
@@ -22,7 +22,7 @@
 		"E:/IDE/apps/CLion/ch-0/231.8109.174/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
 		"E:/IDE/apps/CLion/ch-0/231.8109.174/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-MSVC-CXX.cmake",
 		"E:/IDE/apps/CLion/ch-0/231.8109.174/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-MSVC.cmake",
-		"C:/Users/17305/Documents/chatgpt_qml/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CMakeRCCompiler.cmake",
+		"C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CMakeRCCompiler.cmake",
 		"E:/IDE/apps/CLion/ch-0/231.8109.174/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeRCInformation.cmake",
 		"E:/IDE/apps/CLion/ch-0/231.8109.174/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake",
 		"C:/Qt/6.2.4/msvc2019_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake",
@@ -399,35 +399,41 @@
 		"C:/Qt/6.2.4/msvc2019_64/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in",
 		"C:/Qt/6.2.4/msvc2019_64/lib/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in"
 	],
-	"CMAKE_SOURCE_DIR" : "C:/Users/17305/Documents/chatgpt_qml",
+	"CMAKE_SOURCE_DIR" : "C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml",
 	"DEP_FILE" : "",
 	"DEP_FILE_RULE_NAME" : "",
 	"HEADERS" : 
 	[
 		[
-			"C:/Users/17305/Documents/chatgpt_qml/cmake-build-debug-visual-studio/ddf_appchatgpt_qml.h",
+			"C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/GptResponseParseHelper.h",
+			"Mu",
+			"EWIEGA46WW/moc_GptResponseParseHelper.cpp",
+			null
+		],
+		[
+			"C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio/ddf_appchatgpt_qml.h",
 			"Mu",
 			"EYJ7E7KC6M/moc_ddf_appchatgpt_qml.cpp",
 			null
 		],
 		[
-			"C:/Users/17305/Documents/chatgpt_qml/openAIAPI.h",
+			"C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/openAIAPI.h",
 			"Mu",
 			"EWIEGA46WW/moc_openAIAPI.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "C:/Users/17305/Documents/chatgpt_qml/cmake-build-debug-visual-studio/appchatgpt_qml_autogen/include",
-	"INCLUDE_DIR_Debug" : "C:/Users/17305/Documents/chatgpt_qml/cmake-build-debug-visual-studio/appchatgpt_qml_autogen/include_Debug",
-	"INCLUDE_DIR_MinSizeRel" : "C:/Users/17305/Documents/chatgpt_qml/cmake-build-debug-visual-studio/appchatgpt_qml_autogen/include_MinSizeRel",
-	"INCLUDE_DIR_RelWithDebInfo" : "C:/Users/17305/Documents/chatgpt_qml/cmake-build-debug-visual-studio/appchatgpt_qml_autogen/include_RelWithDebInfo",
-	"INCLUDE_DIR_Release" : "C:/Users/17305/Documents/chatgpt_qml/cmake-build-debug-visual-studio/appchatgpt_qml_autogen/include_Release",
-	"MOC_COMPILATION_FILE" : "C:/Users/17305/Documents/chatgpt_qml/cmake-build-debug-visual-studio/appchatgpt_qml_autogen/mocs_compilation.cpp",
-	"MOC_COMPILATION_FILE_Debug" : "C:/Users/17305/Documents/chatgpt_qml/cmake-build-debug-visual-studio/appchatgpt_qml_autogen/mocs_compilation_Debug.cpp",
-	"MOC_COMPILATION_FILE_MinSizeRel" : "C:/Users/17305/Documents/chatgpt_qml/cmake-build-debug-visual-studio/appchatgpt_qml_autogen/mocs_compilation_MinSizeRel.cpp",
-	"MOC_COMPILATION_FILE_RelWithDebInfo" : "C:/Users/17305/Documents/chatgpt_qml/cmake-build-debug-visual-studio/appchatgpt_qml_autogen/mocs_compilation_RelWithDebInfo.cpp",
-	"MOC_COMPILATION_FILE_Release" : "C:/Users/17305/Documents/chatgpt_qml/cmake-build-debug-visual-studio/appchatgpt_qml_autogen/mocs_compilation_Release.cpp",
+	"INCLUDE_DIR" : "C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio/appchatgpt_qml_autogen/include",
+	"INCLUDE_DIR_Debug" : "C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio/appchatgpt_qml_autogen/include_Debug",
+	"INCLUDE_DIR_MinSizeRel" : "C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio/appchatgpt_qml_autogen/include_MinSizeRel",
+	"INCLUDE_DIR_RelWithDebInfo" : "C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio/appchatgpt_qml_autogen/include_RelWithDebInfo",
+	"INCLUDE_DIR_Release" : "C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio/appchatgpt_qml_autogen/include_Release",
+	"MOC_COMPILATION_FILE" : "C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio/appchatgpt_qml_autogen/mocs_compilation.cpp",
+	"MOC_COMPILATION_FILE_Debug" : "C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio/appchatgpt_qml_autogen/mocs_compilation_Debug.cpp",
+	"MOC_COMPILATION_FILE_MinSizeRel" : "C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio/appchatgpt_qml_autogen/mocs_compilation_MinSizeRel.cpp",
+	"MOC_COMPILATION_FILE_RelWithDebInfo" : "C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio/appchatgpt_qml_autogen/mocs_compilation_RelWithDebInfo.cpp",
+	"MOC_COMPILATION_FILE_Release" : "C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio/appchatgpt_qml_autogen/mocs_compilation_Release.cpp",
 	"MOC_DEFINITIONS" : 
 	[
 		"QT_CORE_LIB",
@@ -470,7 +476,7 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"C:/Users/17305/Documents/chatgpt_qml",
+		"C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml",
 		"C:/Qt/6.2.4/msvc2019_64/include/QtQml/6.2.4",
 		"C:/Qt/6.2.4/msvc2019_64/include/QtQml/6.2.4/QtQml",
 		"C:/Qt/6.2.4/msvc2019_64/include/QtCore/6.2.4",
@@ -493,36 +499,49 @@
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : 
 	[
-		"C:/Users/17305/Documents/chatgpt_qml/cmake-build-debug-visual-studio/.rcc/qmlcache/appchatgpt_qml_main_qml.cpp",
-		"C:/Users/17305/Documents/chatgpt_qml/cmake-build-debug-visual-studio/.rcc/qrc_appchatgpt_qml_raw_qml_0.cpp",
-		"C:/Users/17305/Documents/chatgpt_qml/cmake-build-debug-visual-studio/.rcc/qrc_qmake_chatgpt_qml.cpp",
-		"C:/Users/17305/Documents/chatgpt_qml/cmake-build-debug-visual-studio/appchatgpt_qml_qmltyperegistrations.cpp"
+		"C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio/.rcc/qmlcache/appchatgpt_qml_main_qml.cpp",
+		"C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio/.rcc/qrc_appchatgpt_qml_raw_qml_0.cpp",
+		"C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio/.rcc/qrc_qmake_chatgpt_qml.cpp",
+		"C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio/appchatgpt_qml_qmltyperegistrations.cpp"
 	],
 	"MULTI_CONFIG" : true,
 	"PARALLEL" : 14,
-	"PARSE_CACHE_FILE" : "C:/Users/17305/Documents/chatgpt_qml/cmake-build-debug-visual-studio/CMakeFiles/appchatgpt_qml_autogen.dir/ParseCache.txt",
-	"PARSE_CACHE_FILE_Debug" : "C:/Users/17305/Documents/chatgpt_qml/cmake-build-debug-visual-studio/CMakeFiles/appchatgpt_qml_autogen.dir/ParseCache_Debug.txt",
-	"PARSE_CACHE_FILE_MinSizeRel" : "C:/Users/17305/Documents/chatgpt_qml/cmake-build-debug-visual-studio/CMakeFiles/appchatgpt_qml_autogen.dir/ParseCache_MinSizeRel.txt",
-	"PARSE_CACHE_FILE_RelWithDebInfo" : "C:/Users/17305/Documents/chatgpt_qml/cmake-build-debug-visual-studio/CMakeFiles/appchatgpt_qml_autogen.dir/ParseCache_RelWithDebInfo.txt",
-	"PARSE_CACHE_FILE_Release" : "C:/Users/17305/Documents/chatgpt_qml/cmake-build-debug-visual-studio/CMakeFiles/appchatgpt_qml_autogen.dir/ParseCache_Release.txt",
+	"PARSE_CACHE_FILE" : "C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio/CMakeFiles/appchatgpt_qml_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE_Debug" : "C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio/CMakeFiles/appchatgpt_qml_autogen.dir/ParseCache_Debug.txt",
+	"PARSE_CACHE_FILE_MinSizeRel" : "C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio/CMakeFiles/appchatgpt_qml_autogen.dir/ParseCache_MinSizeRel.txt",
+	"PARSE_CACHE_FILE_RelWithDebInfo" : "C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio/CMakeFiles/appchatgpt_qml_autogen.dir/ParseCache_RelWithDebInfo.txt",
+	"PARSE_CACHE_FILE_Release" : "C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio/CMakeFiles/appchatgpt_qml_autogen.dir/ParseCache_Release.txt",
 	"QT_MOC_EXECUTABLE" : "C:/Qt/6.2.4/msvc2019_64/./bin/moc.exe",
 	"QT_UIC_EXECUTABLE" : "",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 2,
-	"SETTINGS_FILE" : "C:/Users/17305/Documents/chatgpt_qml/cmake-build-debug-visual-studio/CMakeFiles/appchatgpt_qml_autogen.dir/AutogenUsed.txt",
-	"SETTINGS_FILE_Debug" : "C:/Users/17305/Documents/chatgpt_qml/cmake-build-debug-visual-studio/CMakeFiles/appchatgpt_qml_autogen.dir/AutogenUsed_Debug.txt",
-	"SETTINGS_FILE_MinSizeRel" : "C:/Users/17305/Documents/chatgpt_qml/cmake-build-debug-visual-studio/CMakeFiles/appchatgpt_qml_autogen.dir/AutogenUsed_MinSizeRel.txt",
-	"SETTINGS_FILE_RelWithDebInfo" : "C:/Users/17305/Documents/chatgpt_qml/cmake-build-debug-visual-studio/CMakeFiles/appchatgpt_qml_autogen.dir/AutogenUsed_RelWithDebInfo.txt",
-	"SETTINGS_FILE_Release" : "C:/Users/17305/Documents/chatgpt_qml/cmake-build-debug-visual-studio/CMakeFiles/appchatgpt_qml_autogen.dir/AutogenUsed_Release.txt",
+	"SETTINGS_FILE" : "C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio/CMakeFiles/appchatgpt_qml_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE_Debug" : "C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio/CMakeFiles/appchatgpt_qml_autogen.dir/AutogenUsed_Debug.txt",
+	"SETTINGS_FILE_MinSizeRel" : "C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio/CMakeFiles/appchatgpt_qml_autogen.dir/AutogenUsed_MinSizeRel.txt",
+	"SETTINGS_FILE_RelWithDebInfo" : "C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio/CMakeFiles/appchatgpt_qml_autogen.dir/AutogenUsed_RelWithDebInfo.txt",
+	"SETTINGS_FILE_Release" : "C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio/CMakeFiles/appchatgpt_qml_autogen.dir/AutogenUsed_Release.txt",
 	"SOURCES" : 
 	[
 		[
-			"C:/Users/17305/Documents/chatgpt_qml/cmake-build-debug-visual-studio/.rcc/qmlcache/appchatgpt_qml_qmlcache_loader.cpp",
+			"C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/GptResponseParseHelper.cpp",
 			"Mu",
 			null
 		],
-		[ "C:/Users/17305/Documents/chatgpt_qml/main.cpp", "Mu", null ],
-		[ "C:/Users/17305/Documents/chatgpt_qml/openAIAPI.cpp", "Mu", null ]
+		[
+			"C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio/.rcc/qmlcache/appchatgpt_qml_qmlcache_loader.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/main.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/openAIAPI.cpp",
+			"Mu",
+			null
+		]
 	],
 	"VERBOSITY" : 0
 }

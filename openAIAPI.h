@@ -5,13 +5,23 @@
 #ifndef CHATGPT_QML_OPENAIAPI_H
 #define CHATGPT_QML_OPENAIAPI_H
 
-#endif //CHATGPT_QML_OPENAIAPI_H
+
 #include "qobject.h"
+#include "qvariant.h"
 class openAIAPI : public QObject
 {
 Q_OBJECT
 public:
     openAIAPI();
     ~openAIAPI();
-    bool startPostRequest( QUrl url);
+    void postRequest();
+    Q_INVOKABLE void sendMessage(QString msg);
+
+    signals:
+    void sigAddMessage(QVariant role,QVariant content);
+
+private:
+    QString m_msg;
 };
+
+#endif //CHATGPT_QML_OPENAIAPI_H

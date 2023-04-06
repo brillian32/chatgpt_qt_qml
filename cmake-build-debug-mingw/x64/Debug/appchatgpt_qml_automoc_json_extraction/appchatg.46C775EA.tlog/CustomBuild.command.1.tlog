@@ -1,0 +1,20 @@
+^C:\USERS\17305\DOCUMENTS\CHATGPT_QML\CHATGPT_QT_QML\CMAKE-BUILD-DEBUG-MINGW\CMAKEFILES\94B5948DF46831D632C10EB76B33BC3D\APPCHATGPT_QML_AUTOMOC_JSON_EXTRACTION.RULE
+setlocal
+C:\Qt\6.2.4\msvc2019_64\.\bin\cmake_automoc_parser.exe --cmake-autogen-cache-file C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-mingw/CMakeFiles/appchatgpt_qml_autogen.dir/ParseCache_Debug.txt --cmake-autogen-info-file C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-mingw/CMakeFiles/appchatgpt_qml_autogen.dir/AutogenInfo.json --output-file-path C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-mingw/meta_types/appchatgpt_qml_json_file_list.txt --timestamp-file-path C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-mingw/meta_types/appchatgpt_qml_json_file_list.txt.timestamp --cmake-autogen-include-dir-path C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-mingw/appchatgpt_qml_autogen/include_Debug --cmake-multi-config
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\17305\DOCUMENTS\CHATGPT_QML\CHATGPT_QT_QML\CMAKELISTS.TXT
+setlocal
+E:\IDE\apps\CLion\ch-0\231.8109.174\bin\cmake\win\x64\bin\cmake.exe -SC:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml -BC:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-mingw --check-stamp-file C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-mingw/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
