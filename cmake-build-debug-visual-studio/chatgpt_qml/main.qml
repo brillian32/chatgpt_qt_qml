@@ -7,6 +7,7 @@ Window {
     title: qsTr("chatgpt 3.5 turbo")
     visible: true
     width: 640
+
     color:"#21282d"
     objectName: "objMainWin"
 
@@ -18,18 +19,36 @@ Window {
         }
     }
 
-    ListView {
-        height: 600
+    Rectangle{
+        id:listViewRect
+        height: 300
         width :mainWin.width-20
-        anchors.top : rectMessageEdit.bottom
-        anchors.left : rectMessageEdit.left
-        anchors.topMargin : 10
+        anchors.top : parent.top
+        anchors.topMargin: 10
+        anchors.left : parent.left
+        anchors.leftMargin : 10
+    }
+    ListView {
+        id : listViewMesg
+        anchors.fill:listViewRect
+        parent: listViewRect
+        interactive: true//元素可拖动
+        orientation: ListView.Vertical//垂直列表
+        ScrollBar.vertical: ScrollBar {
+            id: scrollBar
+            onActiveChanged: {
+                console.log("onActiveChanged========================")
+                active = true;
+            }
+        }
 
         model: modelList
         spacing: 5
+
         delegate: Rectangle {
+            id:chatMsgRect
             height: roleText.height + msgText.height +10 + 5
-            width: parent.width
+            width: listViewMesg.width
             border.width: 1
             radius:4
             color:"#45f3bf"
@@ -44,32 +63,34 @@ Window {
                 height: 20
                 color:"#21282d"
             }
-            TextField  {
+            TextEdit  {
                 id : msgText
+                z:1
+                textFormat: TextEdit.MarkdownText
                 anchors.top: roleText.bottom
                 anchors.topMargin:5
                 anchors.left:parent.left
                 anchors.leftMargin:10
                 width : parent.width - 20
+                
                 text: msg
                 color:"#f0f8fe"
                 selectByMouse: true
                 readOnly : true
                 wrapMode: TextInput.WrapAnywhere
-                background: Rectangle {
-                    border.width: 1
-                    ;
-                    border.color: "#55e5c5"
-                    radius: 3
-                    ;
-                    color: "#111416"
-                    ;
-                }
-
-
-                }
+            }
+            Rectangle { //msg文字背景
+                border.width: 1
+                anchors.fill : msgText
+                z:0
+                border.color: "#55e5c5"
+                radius: 3
+                color: "#111416"
+            }
         }
     }
+
+
     function addChatMessage(arg1,arg2){
         console.log("qml slot runing",arg1,arg2)
         var data = {"role":arg1, "msg":arg2}
@@ -102,9 +123,14 @@ Window {
         border.width: 2
         height: inputData.height + 8
         radius: 6
-        width: 350
-        x: 10
-        y: 10
+        width: parent.width-100
+        anchors.leftMargin: 10
+
+        anchors.left:parent.left
+        anchors.bottom: parent.bottom
+        anchors.bottomMargin: 10
+
+
 
         TextInput {
             id: inputData
@@ -142,3 +168,6 @@ Window {
     }
 
 }
+
+
+

@@ -22,7 +22,8 @@ int main(int argc, char *argv[])
     engine.rootContext()->setContextProperty("openAIAPI",&api);
 
     //连接qml响应的槽/function
-    auto qmlObj = engine.rootObjects().first();
+    auto rootObjs= engine.rootObjects();
+    auto qmlObj = rootObjs.first();
     qDebug()<<"Cpp get qml property objectName:"<<qmlObj->property("objectName");
     QObject::connect(&api,SIGNAL(sigAddMessage(QVariant,QVariant)),
                      qmlObj,SLOT(addChatMessage(QVariant,QVariant)));
