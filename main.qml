@@ -22,6 +22,7 @@ Window {
     Rectangle{
         id:listViewRect
         height: 300
+        color: "transparent"
         width :mainWin.width-20
         anchors.top : parent.top
         anchors.topMargin: 10
@@ -33,12 +34,21 @@ Window {
         anchors.fill:listViewRect
         parent: listViewRect
         interactive: true//元素可拖动
+        clip:true
         orientation: ListView.Vertical//垂直列表
         ScrollBar.vertical: ScrollBar {
             id: scrollBar
+            width: 10
+            size: 0.5
+            minimumSize:0.1
             onActiveChanged: {
                 console.log("onActiveChanged========================")
                 active = true;
+            }
+            contentItem: Rectangle{
+
+                radius: width / 2
+                color:scrollBar.pressed?"#4a545c":"#394048"
             }
         }
 
