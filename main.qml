@@ -45,6 +45,9 @@ Window {
                 console.log("onActiveChanged========================")
                 active = true;
             }
+            background: Rectangle {
+                    color: "#21282d"
+            }
             contentItem: Rectangle{
 
                 radius: width / 2
