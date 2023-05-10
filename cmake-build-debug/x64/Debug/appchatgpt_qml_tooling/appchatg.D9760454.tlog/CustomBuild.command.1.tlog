@@ -1,0 +1,24 @@
+^C:\USERS\17305\DOCUMENTS\CHATGPT_QML\CHATGPT_QT_QML\CMAKE-BUILD-DEBUG\CMAKEFILES\90B2C8D5F99C73F3C73484EE1D4BB7C9\MAIN.QML.RULE
+setlocal
+cd C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"E:\JetBrains\CLion 2023.1.1\bin\cmake\win\x64\bin\cmake.exe" -E copy main.qml C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/chatgpt_qml/main.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\17305\DOCUMENTS\CHATGPT_QML\CHATGPT_QT_QML\CMAKELISTS.TXT
+setlocal
+"E:\JetBrains\CLion 2023.1.1\bin\cmake\win\x64\bin\cmake.exe" -SC:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml -BC:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug --check-stamp-file C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

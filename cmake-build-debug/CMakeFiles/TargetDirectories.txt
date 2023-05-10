@@ -1,8 +1,8 @@
 C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/CMakeFiles/appchatgpt_qml.dir
+C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/CMakeFiles/appchatgpt_qml_other_files.dir
 C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/CMakeFiles/appchatgpt_qml_automoc_json_extraction.dir
 C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/CMakeFiles/appchatgpt_qml_qmltyperegistration.dir
 C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/CMakeFiles/all_qmltyperegistrations.dir
-C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/CMakeFiles/appchatgpt_qml_other_files.dir
 C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/CMakeFiles/appchatgpt_qml_qmllint.dir
 C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/CMakeFiles/all_qmllint.dir
 C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/CMakeFiles/appchatgpt_qml_tooling.dir

@@ -1,0 +1,78 @@
+^C:\USERS\17305\DOCUMENTS\CHATGPT_QML\CHATGPT_QT_QML\CMAKE-BUILD-DEBUG\CMAKEFILES\3F107B6DEDBC70FF9243F9FC8599C799\QRC_IMAGES.CPP.RULE
+setlocal
+E:\Qt\6.2.4\msvc2019_64\.\bin\rcc.exe --output C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/.rcc/qrc_images.cpp --name images C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/.rcc/images.qrc --no-zstd
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\17305\DOCUMENTS\CHATGPT_QML\CHATGPT_QT_QML\CMAKE-BUILD-DEBUG\CMAKEFILES\A9280B10BDBD81F793860D04B9309223\QT6APPCHATGPT_QML_METATYPES.JSON.GEN.RULE
+setlocal
+E:\Qt\6.2.4\msvc2019_64\.\bin\moc.exe -o C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/meta_types/qt6appchatgpt_qml_metatypes.json.gen --collect-json @C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/meta_types/appchatgpt_qml_json_file_list.txt
+if %errorlevel% neq 0 goto :cmEnd
+"E:\JetBrains\CLion 2023.1.1\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/meta_types/qt6appchatgpt_qml_metatypes.json.gen C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/meta_types/qt6appchatgpt_qml_metatypes.json
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\17305\DOCUMENTS\CHATGPT_QML\CHATGPT_QT_QML\CMAKE-BUILD-DEBUG\CMAKEFILES\2F4BEF690906985007F96AB08B84CF20\APPCHATGPT_QML_QMLTYPEREGISTRATIONS.CPP.RULE
+setlocal
+E:\Qt\6.2.4\msvc2019_64\.\bin\qmltyperegistrar.exe --generate-qmltypes=C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/chatgpt_qml/appchatgpt_qml.qmltypes --import-name=chatgpt_qml --major-version=1 --minor-version=0 @C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/qmltypes/appchatgpt_qml_foreign_types.txt -o C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/appchatgpt_qml_qmltyperegistrations.cpp C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/meta_types/qt6appchatgpt_qml_metatypes.json
+if %errorlevel% neq 0 goto :cmEnd
+"E:\JetBrains\CLion 2023.1.1\bin\cmake\win\x64\bin\cmake.exe" -E make_directory C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/.generated
+if %errorlevel% neq 0 goto :cmEnd
+"E:\JetBrains\CLion 2023.1.1\bin\cmake\win\x64\bin\cmake.exe" -E touch C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/.generated/appchatgpt_qml.qmltypes
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\17305\DOCUMENTS\CHATGPT_QML\CHATGPT_QT_QML\CMAKE-BUILD-DEBUG\CMAKEFILES\3F107B6DEDBC70FF9243F9FC8599C799\QRC_QMAKE_CHATGPT_QML.CPP.RULE
+setlocal
+E:\Qt\6.2.4\msvc2019_64\.\bin\rcc.exe --output C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/.rcc/qrc_qmake_chatgpt_qml.cpp --name qmake_chatgpt_qml C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/.rcc/qmake_chatgpt_qml.qrc --no-zstd
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\17305\DOCUMENTS\CHATGPT_QML\CHATGPT_QT_QML\CMAKE-BUILD-DEBUG\CMAKEFILES\EA7F0639FD02385C85C8682D4786609B\APPCHATGPT_QML_MAIN_QML.CPP.RULE
+setlocal
+"E:\JetBrains\CLion 2023.1.1\bin\cmake\win\x64\bin\cmake.exe" -E make_directory C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/.rcc/qmlcache
+if %errorlevel% neq 0 goto :cmEnd
+E:\Qt\6.2.4\msvc2019_64\.\bin\qmlcachegen.exe --resource-path /chatgpt_qml/main.qml -I C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug -i C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/chatgpt_qml/appchatgpt_qml.qmltypes --resource C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/.rcc/images.qrc --resource C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/.rcc/qmake_chatgpt_qml.qrc --resource C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/.rcc/appchatgpt_qml_raw_qml_0.qrc -o C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/.rcc/qmlcache/appchatgpt_qml_main_qml.cpp C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/main.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\17305\DOCUMENTS\CHATGPT_QML\CHATGPT_QT_QML\CMAKE-BUILD-DEBUG\CMAKEFILES\3F107B6DEDBC70FF9243F9FC8599C799\QRC_APPCHATGPT_QML_RAW_QML_0.CPP.RULE
+setlocal
+E:\Qt\6.2.4\msvc2019_64\.\bin\rcc.exe --output C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/.rcc/qrc_appchatgpt_qml_raw_qml_0.cpp --name appchatgpt_qml_raw_qml_0 C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/.rcc/appchatgpt_qml_raw_qml_0.qrc --no-zstd
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\17305\DOCUMENTS\CHATGPT_QML\CHATGPT_QT_QML\CMAKELISTS.TXT
+setlocal
+"E:\JetBrains\CLion 2023.1.1\bin\cmake\win\x64\bin\cmake.exe" -SC:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml -BC:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug --check-stamp-file C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

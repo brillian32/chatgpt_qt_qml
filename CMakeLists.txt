@@ -2,17 +2,22 @@ cmake_minimum_required(VERSION 3.16)
 
 project(chatgpt_qml VERSION 0.1 LANGUAGES CXX)
 
+set(CMAKE_PREFIX_PATH "E:/Qt/6.2.4/msvc2019_64")
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-
 find_package(Qt6 6.2 COMPONENTS Quick Network REQUIRED)
+
 
 qt_add_executable(appchatgpt_qml
     main.cpp
     openAIAPI.cpp openAIAPI.h GptResponseParseHelper.h GptResponseParseHelper.cpp
    # markdown2html.js
     )
+
+qt_add_resources(appchatgpt_qml "images"
+    PREFIX "/img"
+    FILES ./logo.png)
 
 qt_add_qml_module(appchatgpt_qml
     URI chatgpt_qml

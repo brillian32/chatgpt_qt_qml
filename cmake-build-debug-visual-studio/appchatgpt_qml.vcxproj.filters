@@ -70,13 +70,13 @@
   <ItemGroup>
     <None Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug-visual-studio\meta_types\qt6appchatgpt_qml_metatypes.json.gen" />
     <None Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\main.qml" />
-    <None Include="C:\Qt\6.2.4\msvc2019_64\lib\metatypes\qt6core_metatypes.json" />
-    <None Include="C:\Qt\6.2.4\msvc2019_64\lib\metatypes\qt6qml_metatypes.json" />
-    <None Include="C:\Qt\6.2.4\msvc2019_64\lib\metatypes\qt6network_metatypes.json" />
-    <None Include="C:\Qt\6.2.4\msvc2019_64\lib\metatypes\qt6quick_metatypes.json" />
-    <None Include="C:\Qt\6.2.4\msvc2019_64\lib\metatypes\qt6gui_metatypes.json" />
-    <None Include="C:\Qt\6.2.4\msvc2019_64\lib\metatypes\qt6qmlmodels_metatypes.json" />
-    <None Include="C:\Qt\6.2.4\msvc2019_64\lib\metatypes\qt6opengl_metatypes.json" />
+    <None Include="E:\Qt\6.2.4\msvc2019_64\lib\metatypes\qt6core_metatypes.json" />
+    <None Include="E:\Qt\6.2.4\msvc2019_64\lib\metatypes\qt6qml_metatypes.json" />
+    <None Include="E:\Qt\6.2.4\msvc2019_64\lib\metatypes\qt6network_metatypes.json" />
+    <None Include="E:\Qt\6.2.4\msvc2019_64\lib\metatypes\qt6quick_metatypes.json" />
+    <None Include="E:\Qt\6.2.4\msvc2019_64\lib\metatypes\qt6gui_metatypes.json" />
+    <None Include="E:\Qt\6.2.4\msvc2019_64\lib\metatypes\qt6qmlmodels_metatypes.json" />
+    <None Include="E:\Qt\6.2.4\msvc2019_64\lib\metatypes\qt6opengl_metatypes.json" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">

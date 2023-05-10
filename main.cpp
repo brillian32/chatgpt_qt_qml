@@ -3,6 +3,7 @@
 #include "openAIAPI.h"
 #include <QObject>
 #include <QQmlContext>
+#include "qicon.h"
 
 int main(int argc, char *argv[])
 {
@@ -28,5 +29,6 @@ int main(int argc, char *argv[])
     QObject::connect(&api,SIGNAL(sigAddMessage(QVariant,QVariant)),
                      qmlObj,SLOT(addChatMessage(QVariant,QVariant)));
 
+    QGuiApplication::setWindowIcon(QIcon(":/img/logo.png"));
     return app.exec();
 }

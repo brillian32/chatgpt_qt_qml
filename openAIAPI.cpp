@@ -38,7 +38,7 @@ void openAIAPI::postRequest( )
 
     QJsonObject _parameters;
     _parameters.insert("role","system");
-    _parameters.insert("content","尽量用中文回答问题");
+    _parameters.insert("content",QString("用中文回答问题"));
     QJsonObject parameters;
     parameters.insert("role","user");
     parameters.insert("content",m_msg);

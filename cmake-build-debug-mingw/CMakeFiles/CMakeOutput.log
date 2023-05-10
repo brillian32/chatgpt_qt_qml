@@ -1,83 +1,267 @@
 The system is: Windows - 10.0.22621 - AMD64
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler:  
+Compiler: E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/g++.exe 
 Build flags: 
 Id flags:  
 
 The output was:
 0
-用于 .NET Framework 的 Microsoft (R) 生成引擎版本 17.2.1+52cd2da31
-版权所有(C) Microsoft Corporation。保留所有权利。
-
-生成启动时间为 2023/4/6 20:46:57。
-节点 1 上的项目“C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug-mingw\CMakeFiles\3.25.2\CompilerIdCXX\CompilerIdCXX.vcxproj”(默认目标)。
-PrepareForBuild:
-  正在创建目录“Debug\”。
-  正在创建目录“Debug\CompilerIdCXX.tlog\”。
-InitializeBuildStatus:
-  正在创建“Debug\CompilerIdCXX.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
-VcpkgTripletSelection:
-  Using triplet "x64-windows" from "C:\src\vcpkg\installed\x64-windows\"
-ClCompile:
-  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\bin\HostX64\x64\CL.exe /c /I"C:\src\vcpkg\installed\x64-windows\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
-  CMakeCXXCompilerId.cpp
-Link:
-  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\src\vcpkg\installed\x64-windows\debug\lib" /LIBPATH:"C:\src\vcpkg\installed\x64-windows\debug\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\src\vcpkg\installed\x64-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
-  CompilerIdCXX.vcxproj -> C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug-mingw\CMakeFiles\3.25.2\CompilerIdCXX\CompilerIdCXX.exe
-AppLocalFromInstalled:
-  pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\src\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug-mingw\CMakeFiles\3.25.2\CompilerIdCXX\CompilerIdCXX.exe" "C:\src\vcpkg\installed\x64-windows\debug\bin" "Debug\CompilerIdCXX.tlog\CompilerIdCXX.write.1u.tlog" "Debug\vcpkg.applocal.log"
-  'pwsh.exe' 不是内部或外部命令，也不是可运行的程序
-  或批处理文件。
-  命令“pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\src\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug-mingw\CMakeFiles\3.25.2\CompilerIdCXX\CompilerIdCXX.exe" "C:\src\vcpkg\installed\x64-windows\debug\bin" "Debug\CompilerIdCXX.tlog\CompilerIdCXX.write.1u.tlog" "Debug\vcpkg.applocal.log"”已退出，代码为 9009。
-  "C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\src\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug-mingw\CMakeFiles\3.25.2\CompilerIdCXX\CompilerIdCXX.exe" "C:\src\vcpkg\installed\x64-windows\debug\bin" "Debug\CompilerIdCXX.tlog\CompilerIdCXX.write.1u.tlog" "Debug\vcpkg.applocal.log"
-PostBuildEvent:
-  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
-  :VCEnd
-  CMAKE_CXX_COMPILER=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\bin\Hostx64\x64\cl.exe
-FinalizeBuildStatus:
-  正在删除文件“Debug\CompilerIdCXX.tlog\unsuccessfulbuild”。
-  正在对“Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate”执行 Touch 任务。
-已完成生成项目“C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug-mingw\CMakeFiles\3.25.2\CompilerIdCXX\CompilerIdCXX.vcxproj”(默认目标)的操作。
-
-已成功生成。
-    0 个警告
-    0 个错误
-
-已用时间 00:00:01.05
 
 
-Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
 
-Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
-
-The CXX compiler identification is MSVC, found in "C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-mingw/CMakeFiles/3.25.2/CompilerIdCXX/CompilerIdCXX.exe"
+The CXX compiler identification is GNU, found in "C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-mingw/CMakeFiles/3.25.2/CompilerIdCXX/a.exe"
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-mingw/CMakeFiles/CMakeScratch/TryCompile-520m3m
+Change Dir: C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-mingw/CMakeFiles/CMakeScratch/TryCompile-44nbo3
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_6764d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 17.2.1+52cd2da31
-版权所有(C) Microsoft Corporation。保留所有权利。
-
-  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.32.31332 版
-  CMakeCXXCompilerABI.cpp
-  版权所有(C) Microsoft Corporation。保留所有权利。
-  cl /c /I"C:\src\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6764d.dir\Debug\\" /Fd"cmTC_6764d.dir\Debug\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "E:\IDE\apps\CLion\ch-0\231.8109.174\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp"
-  cmTC_6764d.vcxproj -> C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug-mingw\CMakeFiles\CMakeScratch\TryCompile-520m3m\Debug\cmTC_6764d.exe
+Run Build Command(s):E:/IDE/apps/CLion/ch-0/231.8109.222/bin/ninja/win/x64/ninja.exe cmTC_e0164 && [1/2] Building CXX object CMakeFiles/cmTC_e0164.dir/CMakeCXXCompilerABI.cpp.obj
+Using built-in specs.
+COLLECT_GCC=E:\IDE\apps\CLion\ch-0\231.8109.222\bin\mingw\bin\g++.exe
+Target: x86_64-w64-mingw32
+Configured with: ../gcc-11.2.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.2.0 (GCC) 
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_e0164.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e0164.dir/'
+ E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -quiet -v -iprefix E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT E:/IDE/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_e0164.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\Users\17305\AppData\Local\Temp\cciyvCyk.s
+GNU C++17 (GCC) version 11.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"
+ignoring duplicate directory "E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"
+ignoring duplicate directory "E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"
+ignoring duplicate directory "E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"
+ignoring nonexistent directory "/win/include"
+ignoring duplicate directory "E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/lib/gcc/../../include"
+ignoring duplicate directory "E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"
+ignoring duplicate directory "E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"
+ignoring nonexistent directory "/mingw/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++
+ E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32
+ E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward
+ E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include
+ E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include
+ E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed
+ E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include
+End of search list.
+GNU C++17 (GCC) version 11.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 916242a6eadede3a42d72bc0142b939f
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_e0164.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e0164.dir/'
+ as -v -o CMakeFiles/cmTC_e0164.dir/CMakeCXXCompilerABI.cpp.obj C:\Users\17305\AppData\Local\Temp\cciyvCyk.s
+GNU assembler version 2.37 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.37
+COMPILER_PATH=E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/;E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../libexec/gcc/
+LIBRARY_PATH=E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/;E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/;E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/;E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/;E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_e0164.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e0164.dir/CMakeCXXCompilerABI.cpp.'
+[2/2] Linking CXX executable cmTC_e0164.exe
+Using built-in specs.
+COLLECT_GCC=E:\IDE\apps\CLion\ch-0\231.8109.222\bin\mingw\bin\g++.exe
+COLLECT_LTO_WRAPPER=E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe
+Target: x86_64-w64-mingw32
+Configured with: ../gcc-11.2.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.2.0 (GCC) 
+COMPILER_PATH=E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/;E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../libexec/gcc/
+LIBRARY_PATH=E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/;E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/;E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/;E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/;E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e0164.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_e0164.'
+ E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -m i386pep -Bdynamic -o cmTC_e0164.exe E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LE:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LE:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc -LE:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LE:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -LE:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LE:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. CMakeFiles/cmTC_e0164.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_e0164.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e0164.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_e0164.'
 
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++]
+    add: [E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32]
+    add: [E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward]
+    add: [E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include]
+    add: [E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include]
+    add: [E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed]
+    add: [E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include]
+  end of search list found
+  collapse include dir [E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++] ==> [E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++]
+  collapse include dir [E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32] ==> [E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32]
+  collapse include dir [E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward] ==> [E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward]
+  collapse include dir [E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include] ==> [E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include]
+  collapse include dir [E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include] ==> [E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/include]
+  collapse include dir [E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed] ==> [E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed]
+  collapse include dir [E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include] ==> [E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/x86_64-w64-mingw32/include]
+  implicit include dirs: [E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++;E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32;E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward;E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include;E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/include;E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed;E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/x86_64-w64-mingw32/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-mingw/CMakeFiles/CMakeScratch/TryCompile-44nbo3]
+  ignore line: []
+  ignore line: [Run Build Command(s):E:/IDE/apps/CLion/ch-0/231.8109.222/bin/ninja/win/x64/ninja.exe cmTC_e0164 && [1/2] Building CXX object CMakeFiles/cmTC_e0164.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=E:\IDE\apps\CLion\ch-0\231.8109.222\bin\mingw\bin\g++.exe]
+  ignore line: [Target: x86_64-w64-mingw32]
+  ignore line: [Configured with: ../gcc-11.2.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.2.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_e0164.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e0164.dir/']
+  ignore line: [ E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -quiet -v -iprefix E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT E:/IDE/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_e0164.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\Users\17305\AppData\Local\Temp\cciyvCyk.s]
+  ignore line: [GNU C++17 (GCC) version 11.2.0 (x86_64-w64-mingw32)]
+  ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"]
+  ignore line: [ignoring duplicate directory "E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"]
+  ignore line: [ignoring duplicate directory "E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"]
+  ignore line: [ignoring duplicate directory "E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"]
+  ignore line: [ignoring nonexistent directory "/win/include"]
+  ignore line: [ignoring duplicate directory "E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/lib/gcc/../../include"]
+  ignore line: [ignoring duplicate directory "E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"]
+  ignore line: [ignoring nonexistent directory "/mingw/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++]
+  ignore line: [ E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32]
+  ignore line: [ E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward]
+  ignore line: [ E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include]
+  ignore line: [ E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include]
+  ignore line: [ E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed]
+  ignore line: [ E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (GCC) version 11.2.0 (x86_64-w64-mingw32)]
+  ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 916242a6eadede3a42d72bc0142b939f]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_e0164.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e0164.dir/']
+  ignore line: [ as -v -o CMakeFiles/cmTC_e0164.dir/CMakeCXXCompilerABI.cpp.obj C:\Users\17305\AppData\Local\Temp\cciyvCyk.s]
+  ignore line: [GNU assembler version 2.37 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.37]
+  ignore line: [COMPILER_PATH=E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/]
+  ignore line: [E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/]
+  ignore line: [E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/]
+  ignore line: [E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+  ignore line: [E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/]
+  ignore line: [E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/]
+  ignore line: [E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_e0164.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e0164.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [[2/2] Linking CXX executable cmTC_e0164.exe]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=E:\IDE\apps\CLion\ch-0\231.8109.222\bin\mingw\bin\g++.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe]
+  ignore line: [Target: x86_64-w64-mingw32]
+  ignore line: [Configured with: ../gcc-11.2.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.2.0 (GCC) ]
+  ignore line: [COMPILER_PATH=E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/]
+  ignore line: [E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/]
+  ignore line: [E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/]
+  ignore line: [E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+  ignore line: [E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/]
+  ignore line: [E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/]
+  ignore line: [E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e0164.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_e0164.']
+  link line: [ E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -m i386pep -Bdynamic -o cmTC_e0164.exe E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LE:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LE:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc -LE:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LE:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -LE:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LE:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. CMakeFiles/cmTC_e0164.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_e0164.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+    arg [E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe] ==> ignore
+    arg [-m] ==> ignore
+    arg [i386pep] ==> ignore
+    arg [-Bdynamic] ==> search dynamic
+    arg [-o] ==> ignore
+    arg [cmTC_e0164.exe] ==> ignore
+    arg [E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
+    arg [E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o] ==> obj [E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o]
+    arg [-LE:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0] ==> dir [E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0]
+    arg [-LE:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc] ==> dir [E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc]
+    arg [-LE:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib]
+    arg [-LE:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib] ==> dir [E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib]
+    arg [-LE:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib]
+    arg [-LE:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../..] ==> dir [E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../..]
+    arg [CMakeFiles/cmTC_e0164.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTC_e0164.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-liconv] ==> lib [iconv]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o] ==> obj [E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o]
+    arg [E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o] ==> obj [E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+  remove lib [msvcrt]
+  remove lib [msvcrt]
+  collapse obj [E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> [E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/x86_64-w64-mingw32/lib/crt2.o]
+  collapse obj [E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o] ==> [E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o]
+  collapse obj [E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o] ==> [E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/x86_64-w64-mingw32/lib/default-manifest.o]
+  collapse obj [E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o] ==> [E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+  collapse library dir [E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0] ==> [E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0]
+  collapse library dir [E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc] ==> [E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/lib/gcc]
+  collapse library dir [E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/x86_64-w64-mingw32/lib]
+  collapse library dir [E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib] ==> [E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/lib]
+  collapse library dir [E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib] ==> [E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/x86_64-w64-mingw32/lib]
+  collapse library dir [E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../..] ==> [E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/lib]
+  implicit libs: [stdc++;mingw32;gcc_s;gcc;moldname;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;iconv;mingw32;gcc_s;gcc;moldname;mingwex;kernel32]
+  implicit objs: [E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/x86_64-w64-mingw32/lib/crt2.o;E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o;E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/x86_64-w64-mingw32/lib/default-manifest.o;E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+  implicit dirs: [E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0;E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/lib/gcc;E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/x86_64-w64-mingw32/lib;E:/IDE/apps/CLion/ch-0/231.8109.222/bin/mingw/lib]
+  implicit fwks: []
+
+
+Performing C++ SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-mingw/CMakeFiles/CMakeScratch/TryCompile-jmlrl1
+
+Run Build Command(s):E:/IDE/apps/CLion/ch-0/231.8109.222/bin/ninja/win/x64/ninja.exe cmTC_c5e9c && [1/2] Building CXX object CMakeFiles/cmTC_c5e9c.dir/src.cxx.obj
+[2/2] Linking CXX executable cmTC_c5e9c.exe
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
 
 
 Performing C++ SOURCE FILE Test HAVE_STDATOMIC succeeded with the following output:
-Change Dir: C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-mingw/CMakeFiles/CMakeScratch/TryCompile-e0khic
+Change Dir: C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-mingw/CMakeFiles/CMakeScratch/TryCompile-uy90ar
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_8f82f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 17.2.1+52cd2da31
-版权所有(C) Microsoft Corporation。保留所有权利。
-
-  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.32.31332 版
-  src.cxx
-  版权所有(C) Microsoft Corporation。保留所有权利。
-  cl /c /I"C:\src\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_STDATOMIC /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_8f82f.dir\Debug\\" /Fd"cmTC_8f82f.dir\Debug\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug-mingw\CMakeFiles\CMakeScratch\TryCompile-e0khic\src.cxx"
-C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug-mingw\CMakeFiles\CMakeScratch\TryCompile-e0khic\src.cxx(17,34): warning C4312: “类型强制转换”: 从“unsigned int”转换到更大的“void *” [C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug-mingw\CMakeFiles\CMakeScratch\TryCompile-e0khic\cmTC_8f82f.vcxproj]
-  cmTC_8f82f.vcxproj -> C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug-mingw\CMakeFiles\CMakeScratch\TryCompile-e0khic\Debug\cmTC_8f82f.exe
+Run Build Command(s):E:/IDE/apps/CLion/ch-0/231.8109.222/bin/ninja/win/x64/ninja.exe cmTC_a60b0 && [1/2] Building CXX object CMakeFiles/cmTC_a60b0.dir/src.cxx.obj
+[2/2] Linking CXX executable cmTC_a60b0.exe
 
 
 Source file was:

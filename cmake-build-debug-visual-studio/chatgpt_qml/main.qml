@@ -7,10 +7,8 @@ Window {
     title: qsTr("chatgpt 3.5 turbo")
     visible: true
     width: 640
-
     color:"#21282d"
     objectName: "objMainWin"
-
     ListModel {
         id:modelList
         ListElement {
@@ -49,7 +47,6 @@ Window {
                     color: "#21282d"
             }
             contentItem: Rectangle{
-
                 radius: width / 2
                 color:scrollBar.pressed?"#4a545c":"#394048"
             }

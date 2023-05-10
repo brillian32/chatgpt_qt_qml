@@ -1,0 +1,556 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-bda3b0a74b9aaa29b714.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "chatgpt_qml",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-b46d7d4f0460e057efbd.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-646c5f071b044b83fd5c.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-101284ce4dfd85b4549d.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-692eca7e9165888d27cc.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appchatgpt_qml::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appchatgpt_qml-Debug-e790413f88ab55f92262.json",
+					"name" : "appchatgpt_qml",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appchatgpt_qml_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appchatgpt_qml_autogen-Debug-d0f6379de30cdbb05f19.json",
+					"name" : "appchatgpt_qml_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appchatgpt_qml_automoc_json_extraction::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appchatgpt_qml_automoc_json_extraction-Debug-3597bd9212dd9d7c8601.json",
+					"name" : "appchatgpt_qml_automoc_json_extraction",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appchatgpt_qml_other_files::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appchatgpt_qml_other_files-Debug-3ce2151bfef67eb4695f.json",
+					"name" : "appchatgpt_qml_other_files",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appchatgpt_qml_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appchatgpt_qml_qmllint-Debug-b03e37ed22a839cc33c8.json",
+					"name" : "appchatgpt_qml_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appchatgpt_qml_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appchatgpt_qml_qmltyperegistration-Debug-0015869912b0a14bdf77.json",
+					"name" : "appchatgpt_qml_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appchatgpt_qml_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appchatgpt_qml_tooling-Debug-9ad359167c9347846e78.json",
+					"name" : "appchatgpt_qml_tooling",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-d6747f78ce0f34a566f2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "chatgpt_qml",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-b46d7d4f0460e057efbd.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-646c5f071b044b83fd5c.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Release-101284ce4dfd85b4549d.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Release-692eca7e9165888d27cc.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appchatgpt_qml::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appchatgpt_qml-Release-695c31423ff32b0626a6.json",
+					"name" : "appchatgpt_qml",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appchatgpt_qml_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appchatgpt_qml_autogen-Release-d0f6379de30cdbb05f19.json",
+					"name" : "appchatgpt_qml_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appchatgpt_qml_automoc_json_extraction::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appchatgpt_qml_automoc_json_extraction-Release-3597bd9212dd9d7c8601.json",
+					"name" : "appchatgpt_qml_automoc_json_extraction",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appchatgpt_qml_other_files::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appchatgpt_qml_other_files-Release-3ce2151bfef67eb4695f.json",
+					"name" : "appchatgpt_qml_other_files",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appchatgpt_qml_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appchatgpt_qml_qmllint-Release-b03e37ed22a839cc33c8.json",
+					"name" : "appchatgpt_qml_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appchatgpt_qml_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appchatgpt_qml_qmltyperegistration-Release-0015869912b0a14bdf77.json",
+					"name" : "appchatgpt_qml_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appchatgpt_qml_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appchatgpt_qml_tooling-Release-9ad359167c9347846e78.json",
+					"name" : "appchatgpt_qml_tooling",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-MinSizeRel-92b7bacc8a08f2905356.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "chatgpt_qml",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-b46d7d4f0460e057efbd.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-646c5f071b044b83fd5c.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-MinSizeRel-101284ce4dfd85b4549d.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-MinSizeRel-692eca7e9165888d27cc.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appchatgpt_qml::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appchatgpt_qml-MinSizeRel-311e0400c1780d9de3e5.json",
+					"name" : "appchatgpt_qml",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appchatgpt_qml_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appchatgpt_qml_autogen-MinSizeRel-d0f6379de30cdbb05f19.json",
+					"name" : "appchatgpt_qml_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appchatgpt_qml_automoc_json_extraction::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appchatgpt_qml_automoc_json_extraction-MinSizeRel-3597bd9212dd9d7c8601.json",
+					"name" : "appchatgpt_qml_automoc_json_extraction",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appchatgpt_qml_other_files::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appchatgpt_qml_other_files-MinSizeRel-3ce2151bfef67eb4695f.json",
+					"name" : "appchatgpt_qml_other_files",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appchatgpt_qml_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appchatgpt_qml_qmllint-MinSizeRel-b03e37ed22a839cc33c8.json",
+					"name" : "appchatgpt_qml_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appchatgpt_qml_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appchatgpt_qml_qmltyperegistration-MinSizeRel-0015869912b0a14bdf77.json",
+					"name" : "appchatgpt_qml_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appchatgpt_qml_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appchatgpt_qml_tooling-MinSizeRel-9ad359167c9347846e78.json",
+					"name" : "appchatgpt_qml_tooling",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-RelWithDebInfo-12f47887b58fcf00b22e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "chatgpt_qml",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-b46d7d4f0460e057efbd.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-646c5f071b044b83fd5c.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-RelWithDebInfo-101284ce4dfd85b4549d.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-RelWithDebInfo-692eca7e9165888d27cc.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appchatgpt_qml::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appchatgpt_qml-RelWithDebInfo-c5a811a44ee1c0f4ab30.json",
+					"name" : "appchatgpt_qml",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appchatgpt_qml_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appchatgpt_qml_autogen-RelWithDebInfo-d0f6379de30cdbb05f19.json",
+					"name" : "appchatgpt_qml_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appchatgpt_qml_automoc_json_extraction::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appchatgpt_qml_automoc_json_extraction-RelWithDebInfo-3597bd9212dd9d7c8601.json",
+					"name" : "appchatgpt_qml_automoc_json_extraction",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appchatgpt_qml_other_files::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appchatgpt_qml_other_files-RelWithDebInfo-3ce2151bfef67eb4695f.json",
+					"name" : "appchatgpt_qml_other_files",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appchatgpt_qml_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appchatgpt_qml_qmllint-RelWithDebInfo-b03e37ed22a839cc33c8.json",
+					"name" : "appchatgpt_qml_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appchatgpt_qml_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appchatgpt_qml_qmltyperegistration-RelWithDebInfo-0015869912b0a14bdf77.json",
+					"name" : "appchatgpt_qml_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appchatgpt_qml_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appchatgpt_qml_tooling-RelWithDebInfo-9ad359167c9347846e78.json",
+					"name" : "appchatgpt_qml_tooling",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio",
+		"source" : "C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

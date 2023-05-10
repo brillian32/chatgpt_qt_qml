@@ -1,4 +1,4 @@
-E:\IDE\apps\CLion\ch-0\231.8109.174\bin\cmake\win\x64\bin\cmake.exe -G "Visual Studio 17 2022" -DCMAKE_PREFIX_PATH=C:/Qt/6.2.4/msvc2019_64 -S C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml -B C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug-visual-studio
+"E:\JetBrains\CLion 2023.1.1\bin\cmake\win\x64\bin\cmake.exe" -G "Visual Studio 17 2022" -DCMAKE_PREFIX_PATH=E:/Qt/6.2.4/msvc2019_64 -S C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml -B C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug-visual-studio
 -- Selecting Windows SDK version 10.0.19041.0 to target Windows 10.0.22621.
 -- Could NOT find WrapVulkanHeaders (missing: Vulkan_INCLUDE_DIR) 
 -- Could NOT find WrapVulkanHeaders (missing: Vulkan_INCLUDE_DIR) 

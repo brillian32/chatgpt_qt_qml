@@ -1,0 +1,27 @@
+# ninja log v5
+2	58	7041375216568130	.rcc/qmlcache/appchatgpt_qml_qmlcache_loader.cpp	ae8cdd70b057f3aa
+2	58	7041375216568130	C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-mingw/.rcc/qmlcache/appchatgpt_qml_qmlcache_loader.cpp	ae8cdd70b057f3aa
+2	462	7041394218197529	C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-mingw/appchatgpt_qml_autogen/timestamp	421c351dc2afd325
+564	749	7041394220519157	chatgpt_qml/appchatgpt_qml.qmltypes	34cd7171b70585c2
+4	74	7041395309911530	chatgpt_qml/main.qml	58f328eb2a5cc2bc
+4	74	7041395309911530	C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-mingw/chatgpt_qml/main.qml	58f328eb2a5cc2bc
+2	462	7041394218197529	appchatgpt_qml_autogen/mocs_compilation.cpp	421c351dc2afd325
+2	462	7041394218197529	C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-mingw/appchatgpt_qml_autogen/mocs_compilation.cpp	421c351dc2afd325
+78	167	7041395310804879	C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-mingw/.rcc/qmlcache/appchatgpt_qml_main_qml.cpp	19e957aee35a3e8e
+2	462	7041394218197529	appchatgpt_qml_autogen/timestamp	421c351dc2afd325
+74	103	7041395310206601	.rcc/qrc_appchatgpt_qml_raw_qml_0.cpp	ff7afd2241fba085
+74	103	7041395310206601	C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-mingw/.rcc/qrc_appchatgpt_qml_raw_qml_0.cpp	ff7afd2241fba085
+500	564	7041394219283465	meta_types/qt6appchatgpt_qml_debug_metatypes.json	ac5695ba4b61fc2d
+524	552	7041375221584520	.rcc/qrc_qmake_chatgpt_qml.cpp	66e856b97450153c
+524	552	7041375221584520	C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-mingw/.rcc/qrc_qmake_chatgpt_qml.cpp	66e856b97450153c
+462	500	7041394219283465	meta_types/appchatgpt_qml_json_file_list.txt	df77c0e40050f7e
+462	500	7041394219283465	meta_types/appchatgpt_qml_json_file_list.txt.timestamp	df77c0e40050f7e
+462	500	7041394219283465	C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-mingw/meta_types/appchatgpt_qml_json_file_list.txt	df77c0e40050f7e
+462	500	7041394219283465	C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-mingw/meta_types/appchatgpt_qml_json_file_list.txt.timestamp	df77c0e40050f7e
+500	564	7041394219283465	meta_types/qt6appchatgpt_qml_debug_metatypes.json.gen	ac5695ba4b61fc2d
+500	564	7041394219283465	C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-mingw/meta_types/qt6appchatgpt_qml_debug_metatypes.json.gen	ac5695ba4b61fc2d
+500	564	7041394219283465	C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-mingw/meta_types/qt6appchatgpt_qml_debug_metatypes.json	ac5695ba4b61fc2d
+564	749	7041394220519157	appchatgpt_qml_qmltyperegistrations.cpp	34cd7171b70585c2
+564	749	7041394220519157	C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-mingw/appchatgpt_qml_qmltyperegistrations.cpp	34cd7171b70585c2
+564	749	7041394220519157	C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-mingw/chatgpt_qml/appchatgpt_qml.qmltypes	34cd7171b70585c2
+78	167	7041395310804879	.rcc/qmlcache/appchatgpt_qml_main_qml.cpp	19e957aee35a3e8e
