@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-release\x64\Release\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-release\x64\Release\appchatgpt_qml_tooling</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-release\x64\Release\appchatgpt_qml_autogen</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>
