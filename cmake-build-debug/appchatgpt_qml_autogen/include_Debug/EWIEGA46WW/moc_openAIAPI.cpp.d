@@ -1,4 +1,7 @@
 C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/appchatgpt_qml_autogen/include_Debug/EWIEGA46WW/moc_openAIAPI.cpp: C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/openAIAPI.h \
+  C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/PostData.h \
+  E:/Qt/6.2.4/msvc2019_64/include/QtCore/QJsonArray \
+  E:/Qt/6.2.4/msvc2019_64/include/QtCore/QJsonObject \
   E:/Qt/6.2.4/msvc2019_64/include/QtCore/qalgorithms.h \
   E:/Qt/6.2.4/msvc2019_64/include/QtCore/qanystringview.h \
   E:/Qt/6.2.4/msvc2019_64/include/QtCore/qarraydata.h \
@@ -11,6 +14,9 @@ C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/appchatgpt
   E:/Qt/6.2.4/msvc2019_64/include/QtCore/qbytearrayalgorithms.h \
   E:/Qt/6.2.4/msvc2019_64/include/QtCore/qbytearraylist.h \
   E:/Qt/6.2.4/msvc2019_64/include/QtCore/qbytearrayview.h \
+  E:/Qt/6.2.4/msvc2019_64/include/QtCore/qcalendar.h \
+  E:/Qt/6.2.4/msvc2019_64/include/QtCore/qcborcommon.h \
+  E:/Qt/6.2.4/msvc2019_64/include/QtCore/qcborvalue.h \
   E:/Qt/6.2.4/msvc2019_64/include/QtCore/qchar.h \
   E:/Qt/6.2.4/msvc2019_64/include/QtCore/qcompare.h \
   E:/Qt/6.2.4/msvc2019_64/include/QtCore/qcompilerdetection.h \
@@ -20,6 +26,7 @@ C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/appchatgpt
   E:/Qt/6.2.4/msvc2019_64/include/QtCore/qcontainertools_impl.h \
   E:/Qt/6.2.4/msvc2019_64/include/QtCore/qcontiguouscache.h \
   E:/Qt/6.2.4/msvc2019_64/include/QtCore/qdatastream.h \
+  E:/Qt/6.2.4/msvc2019_64/include/QtCore/qdatetime.h \
   E:/Qt/6.2.4/msvc2019_64/include/QtCore/qdebug.h \
   E:/Qt/6.2.4/msvc2019_64/include/QtCore/qflags.h \
   E:/Qt/6.2.4/msvc2019_64/include/QtCore/qglobal.h \
@@ -29,7 +36,11 @@ C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/appchatgpt
   E:/Qt/6.2.4/msvc2019_64/include/QtCore/qiodevicebase.h \
   E:/Qt/6.2.4/msvc2019_64/include/QtCore/qiterable.h \
   E:/Qt/6.2.4/msvc2019_64/include/QtCore/qiterator.h \
+  E:/Qt/6.2.4/msvc2019_64/include/QtCore/qjsonarray.h \
+  E:/Qt/6.2.4/msvc2019_64/include/QtCore/qjsonobject.h \
+  E:/Qt/6.2.4/msvc2019_64/include/QtCore/qjsonvalue.h \
   E:/Qt/6.2.4/msvc2019_64/include/QtCore/qlist.h \
+  E:/Qt/6.2.4/msvc2019_64/include/QtCore/qlocale.h \
   E:/Qt/6.2.4/msvc2019_64/include/QtCore/qlogging.h \
   E:/Qt/6.2.4/msvc2019_64/include/QtCore/qmap.h \
   E:/Qt/6.2.4/msvc2019_64/include/QtCore/qmath.h \
@@ -44,6 +55,7 @@ C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/appchatgpt
   E:/Qt/6.2.4/msvc2019_64/include/QtCore/qpair.h \
   E:/Qt/6.2.4/msvc2019_64/include/QtCore/qprocessordetection.h \
   E:/Qt/6.2.4/msvc2019_64/include/QtCore/qrefcount.h \
+  E:/Qt/6.2.4/msvc2019_64/include/QtCore/qregularexpression.h \
   E:/Qt/6.2.4/msvc2019_64/include/QtCore/qscopedpointer.h \
   E:/Qt/6.2.4/msvc2019_64/include/QtCore/qscopeguard.h \
   E:/Qt/6.2.4/msvc2019_64/include/QtCore/qset.h \
@@ -66,7 +78,9 @@ C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/appchatgpt
   E:/Qt/6.2.4/msvc2019_64/include/QtCore/qtextstream.h \
   E:/Qt/6.2.4/msvc2019_64/include/QtCore/qtmetamacros.h \
   E:/Qt/6.2.4/msvc2019_64/include/QtCore/qtypeinfo.h \
+  E:/Qt/6.2.4/msvc2019_64/include/QtCore/qurl.h \
   E:/Qt/6.2.4/msvc2019_64/include/QtCore/qutf8stringview.h \
+  E:/Qt/6.2.4/msvc2019_64/include/QtCore/quuid.h \
   E:/Qt/6.2.4/msvc2019_64/include/QtCore/qvariant.h \
   E:/Qt/6.2.4/msvc2019_64/include/QtCore/qvarlengtharray.h \
   E:/Qt/6.2.4/msvc2019_64/include/QtCore/qversiontagging.h

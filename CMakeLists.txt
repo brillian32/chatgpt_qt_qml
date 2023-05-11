@@ -13,7 +13,7 @@ qt_add_executable(appchatgpt_qml
     main.cpp
     openAIAPI.cpp openAIAPI.h GptResponseParseHelper.h GptResponseParseHelper.cpp
    # markdown2html.js
-    )
+    PostData.cpp PostData.h)
 
 qt_add_resources(appchatgpt_qml "images"
     PREFIX "/img"
@@ -22,7 +22,7 @@ qt_add_resources(appchatgpt_qml "images"
 qt_add_qml_module(appchatgpt_qml
     URI chatgpt_qml
     VERSION 1.0
-    QML_FILES main.qml
+    QML_FILES main.qml Loading.qml
 )
 
 set_target_properties(appchatgpt_qml PROPERTIES

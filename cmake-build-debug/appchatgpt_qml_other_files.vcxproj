@@ -168,6 +168,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </None>
     <None Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\main.qml">
     </None>
+    <None Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\Loading.qml">
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug\ZERO_CHECK.vcxproj">

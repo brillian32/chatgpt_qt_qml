@@ -4,10 +4,14 @@
     <CustomBuild Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug\CMakeFiles\90b2c8d5f99c73f3c73484ee1d4bb7c9\main.qml.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
+    <CustomBuild Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug\CMakeFiles\90b2c8d5f99c73f3c73484ee1d4bb7c9\Loading.qml.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
     <CustomBuild Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <None Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug\chatgpt_qml\main.qml" />
+    <None Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug\chatgpt_qml\Loading.qml" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">

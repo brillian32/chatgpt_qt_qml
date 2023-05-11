@@ -36,24 +36,8 @@ void openAIAPI::postRequest( )
     request.setHeader(QNetworkRequest::ContentTypeHeader, "application/json");
     request.setRawHeader("Authorization", "Bearer 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");
 
-    QJsonObject _parameters;
-    _parameters.insert("role","system");
-    _parameters.insert("content",QString("用中文回答问题"));
-    QJsonObject parameters;
-    parameters.insert("role","user");
-    parameters.insert("content",m_msg);
-
-    QJsonArray jsonArray;
-    jsonArray.append(_parameters);
-    jsonArray.append(parameters);
-    // 创建 POST 数据
-    QJsonObject postData;
-    postData["model"] = "gpt-3.5-turbo";
-    postData["max_tokens"] = 1024;
-    postData["temperature"] = 1;
-    postData.insert("messages",jsonArray);
-    QJsonDocument postDataJson(postData);
-
+    m_postData.addSinglePostData("user",m_msg);
+    QJsonDocument postDataJson(m_postData.getPostDatas());
     auto postJson = postDataJson.toJson();
     // 发送 POST 请求
     QNetworkReply* reply = networkManager->post(request, postJson);
@@ -71,8 +55,10 @@ void openAIAPI::postRequest( )
             emit sigAddMessage(parseResult.first ,parseResult.second);
             qDebug() << "Response: " << response ;
             qDebug() << parseResult.first<<":"<<parseResult.second ;
+            m_postData.addSinglePostData(parseResult.first,parseResult.second);
         } else {
             // 处理错误
+            emit sigReplyfalied(reply->errorString());
             qDebug() << "Error: " << reply->errorString();
         }
 

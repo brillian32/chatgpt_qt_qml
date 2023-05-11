@@ -56,6 +56,18 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\17305\DOCUMENTS\CHATGPT_QML\CHATGPT_QT_QML\CMAKE-BUILD-DEBUG\CMAKEFILES\EA7F0639FD02385C85C8682D4786609B\APPCHATGPT_QML_LOADING_QML.CPP.RULE
+setlocal
+"E:\JetBrains\CLion 2023.1.1\bin\cmake\win\x64\bin\cmake.exe" -E make_directory C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/.rcc/qmlcache
+if %errorlevel% neq 0 goto :cmEnd
+E:\Qt\6.2.4\msvc2019_64\.\bin\qmlcachegen.exe --resource-path /chatgpt_qml/Loading.qml -I C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug -i C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/chatgpt_qml/appchatgpt_qml.qmltypes --resource C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/.rcc/images.qrc --resource C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/.rcc/qmake_chatgpt_qml.qrc --resource C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/.rcc/appchatgpt_qml_raw_qml_0.qrc -o C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/.rcc/qmlcache/appchatgpt_qml_Loading_qml.cpp C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/Loading.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
 ^C:\USERS\17305\DOCUMENTS\CHATGPT_QML\CHATGPT_QT_QML\CMAKE-BUILD-DEBUG\CMAKEFILES\3F107B6DEDBC70FF9243F9FC8599C799\QRC_APPCHATGPT_QML_RAW_QML_0.CPP.RULE
 setlocal
 E:\Qt\6.2.4\msvc2019_64\.\bin\rcc.exe --output C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/.rcc/qrc_appchatgpt_qml_raw_qml_0.cpp --name appchatgpt_qml_raw_qml_0 C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/.rcc/appchatgpt_qml_raw_qml_0.qrc --no-zstd

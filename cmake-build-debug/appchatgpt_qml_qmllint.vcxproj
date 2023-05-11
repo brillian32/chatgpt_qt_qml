@@ -112,7 +112,7 @@ cd C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-E:\Qt\6.2.4\msvc2019_64\bin\qmllint.exe -I C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug --resource C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/.rcc/images.qrc --resource C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/.rcc/qmake_chatgpt_qml.qrc --resource C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/.rcc/appchatgpt_qml_raw_qml_0.qrc C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/main.qml
+E:\Qt\6.2.4\msvc2019_64\bin\qmllint.exe -I C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug --resource C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/.rcc/images.qrc --resource C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/.rcc/qmake_chatgpt_qml.qrc --resource C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/.rcc/appchatgpt_qml_raw_qml_0.qrc C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/main.qml C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/Loading.qml
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -120,7 +120,7 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Qt\6.2.4\msvc2019_64\bin\qmllint.exe;C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\main.qml;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Qt\6.2.4\msvc2019_64\bin\qmllint.exe;C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\main.qml;C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\Loading.qml;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug\CMakeFiles\appchatgpt_qml_qmllint</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
@@ -130,7 +130,7 @@ cd C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-E:\Qt\6.2.4\msvc2019_64\bin\qmllint.exe -I C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug --resource C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/.rcc/images.qrc --resource C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/.rcc/qmake_chatgpt_qml.qrc --resource C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/.rcc/appchatgpt_qml_raw_qml_0.qrc C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/main.qml
+E:\Qt\6.2.4\msvc2019_64\bin\qmllint.exe -I C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug --resource C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/.rcc/images.qrc --resource C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/.rcc/qmake_chatgpt_qml.qrc --resource C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/.rcc/appchatgpt_qml_raw_qml_0.qrc C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/main.qml C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/Loading.qml
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -138,7 +138,7 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Qt\6.2.4\msvc2019_64\bin\qmllint.exe;C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\main.qml;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Qt\6.2.4\msvc2019_64\bin\qmllint.exe;C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\main.qml;C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\Loading.qml;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug\CMakeFiles\appchatgpt_qml_qmllint</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
@@ -148,7 +148,7 @@ cd C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-E:\Qt\6.2.4\msvc2019_64\bin\qmllint.exe -I C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug --resource C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/.rcc/images.qrc --resource C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/.rcc/qmake_chatgpt_qml.qrc --resource C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/.rcc/appchatgpt_qml_raw_qml_0.qrc C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/main.qml
+E:\Qt\6.2.4\msvc2019_64\bin\qmllint.exe -I C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug --resource C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/.rcc/images.qrc --resource C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/.rcc/qmake_chatgpt_qml.qrc --resource C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/.rcc/appchatgpt_qml_raw_qml_0.qrc C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/main.qml C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/Loading.qml
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -156,7 +156,7 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Qt\6.2.4\msvc2019_64\bin\qmllint.exe;C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\main.qml;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Qt\6.2.4\msvc2019_64\bin\qmllint.exe;C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\main.qml;C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\Loading.qml;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug\CMakeFiles\appchatgpt_qml_qmllint</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
@@ -166,7 +166,7 @@ cd C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-E:\Qt\6.2.4\msvc2019_64\bin\qmllint.exe -I C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug --resource C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/.rcc/images.qrc --resource C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/.rcc/qmake_chatgpt_qml.qrc --resource C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/.rcc/appchatgpt_qml_raw_qml_0.qrc C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/main.qml
+E:\Qt\6.2.4\msvc2019_64\bin\qmllint.exe -I C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug --resource C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/.rcc/images.qrc --resource C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/.rcc/qmake_chatgpt_qml.qrc --resource C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/.rcc/appchatgpt_qml_raw_qml_0.qrc C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/main.qml C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/Loading.qml
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -174,7 +174,7 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Qt\6.2.4\msvc2019_64\bin\qmllint.exe;C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\main.qml;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Qt\6.2.4\msvc2019_64\bin\qmllint.exe;C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\main.qml;C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\Loading.qml;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug\CMakeFiles\appchatgpt_qml_qmllint</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>

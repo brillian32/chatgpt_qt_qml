@@ -412,6 +412,12 @@
 			null
 		],
 		[
+			"C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/PostData.h",
+			"Mu",
+			"EWIEGA46WW/moc_PostData.cpp",
+			null
+		],
+		[
 			"C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/ddf_appchatgpt_qml.h",
 			"Mu",
 			"526CGLRSAY/moc_ddf_appchatgpt_qml.cpp",
@@ -500,6 +506,7 @@
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : 
 	[
+		"C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/.rcc/qmlcache/appchatgpt_qml_Loading_qml.cpp",
 		"C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/.rcc/qmlcache/appchatgpt_qml_main_qml.cpp",
 		"C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/.rcc/qrc_appchatgpt_qml_raw_qml_0.cpp",
 		"C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug/.rcc/qrc_images.cpp",
@@ -526,6 +533,11 @@
 	[
 		[
 			"C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/GptResponseParseHelper.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/PostData.cpp",
 			"Mu",
 			null
 		],

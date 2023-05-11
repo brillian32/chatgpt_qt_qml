@@ -10,6 +10,13 @@ namespace _chatgpt_qml_main_qml {
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
     };
 }
+namespace _chatgpt_qml_Loading_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
 
 }
 namespace {
@@ -25,6 +32,7 @@ Q_GLOBAL_STATIC(Registry, unitRegistry)
 
 Registry::Registry() {
         resourcePathToCachedUnit.insert(QStringLiteral("/chatgpt_qml/main.qml"), &QmlCacheGeneratedCode::_chatgpt_qml_main_qml::unit);
+        resourcePathToCachedUnit.insert(QStringLiteral("/chatgpt_qml/Loading.qml"), &QmlCacheGeneratedCode::_chatgpt_qml_Loading_qml::unit);
     QQmlPrivate::RegisterQmlUnitCacheHook registration;
     registration.structVersion = 0;
     registration.lookupCachedQmlUnit = &lookupCachedUnit;

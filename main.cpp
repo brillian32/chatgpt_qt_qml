@@ -28,6 +28,8 @@ int main(int argc, char *argv[])
     qDebug()<<"Cpp get qml property objectName:"<<qmlObj->property("objectName");
     QObject::connect(&api,SIGNAL(sigAddMessage(QVariant,QVariant)),
                      qmlObj,SLOT(addChatMessage(QVariant,QVariant)));
+    QObject::connect(&api,SIGNAL(sigReplyfalied(QVariant)),
+                     qmlObj,SLOT(replyError(QVariant)));
 
     QGuiApplication::setWindowIcon(QIcon(":/img/logo.png"));
     return app.exec();

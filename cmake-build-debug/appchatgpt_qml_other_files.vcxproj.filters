@@ -11,6 +11,7 @@
   <ItemGroup>
     <None Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug\chatgpt_qml\qmldir" />
     <None Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\main.qml" />
+    <None Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\Loading.qml" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Resources">

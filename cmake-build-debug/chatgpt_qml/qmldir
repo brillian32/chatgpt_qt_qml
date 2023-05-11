@@ -1,4 +1,5 @@
 module chatgpt_qml
 typeinfo appchatgpt_qml.qmltypes
 prefer :/chatgpt_qml/
+Loading 1.0 Loading.qml
 

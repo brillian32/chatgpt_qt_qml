@@ -13,6 +13,9 @@
     <ClCompile Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\GptResponseParseHelper.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\PostData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug\.rcc\qrc_images.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -26,6 +29,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug\.rcc\qmlcache\appchatgpt_qml_main_qml.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug\.rcc\qmlcache\appchatgpt_qml_Loading_qml.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug\.rcc\qrc_appchatgpt_qml_raw_qml_0.cpp">
@@ -48,6 +54,9 @@
     <ClInclude Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\GptResponseParseHelper.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\PostData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug\ddf_appchatgpt_qml.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -68,6 +77,9 @@
     <CustomBuild Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug\CMakeFiles\ea7f0639fd02385c85c8682d4786609b\appchatgpt_qml_main_qml.cpp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
+    <CustomBuild Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug\CMakeFiles\ea7f0639fd02385c85c8682d4786609b\appchatgpt_qml_Loading_qml.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
     <CustomBuild Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug\CMakeFiles\3f107b6dedbc70ff9243f9fc8599c799\qrc_appchatgpt_qml_raw_qml_0.cpp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
@@ -76,6 +88,7 @@
   <ItemGroup>
     <None Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug\meta_types\qt6appchatgpt_qml_metatypes.json.gen" />
     <None Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\main.qml" />
+    <None Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\Loading.qml" />
     <None Include="E:\Qt\6.2.4\msvc2019_64\lib\metatypes\qt6core_metatypes.json" />
     <None Include="E:\Qt\6.2.4\msvc2019_64\lib\metatypes\qt6qml_metatypes.json" />
     <None Include="E:\Qt\6.2.4\msvc2019_64\lib\metatypes\qt6network_metatypes.json" />

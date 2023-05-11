@@ -8,6 +8,7 @@
 
 #include "qobject.h"
 #include "qvariant.h"
+#include "PostData.h"
 class openAIAPI : public QObject
 {
 Q_OBJECT
@@ -19,8 +20,12 @@ public:
 
     signals:
     void sigAddMessage(QVariant role,QVariant content);
+    //void sigReplySeccess();
+    void sigReplyfalied(QVariant msg);
+
 
 private:
+    PostData m_postData;
     QString m_msg;
 };
 

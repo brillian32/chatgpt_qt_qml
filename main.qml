@@ -5,10 +5,12 @@ Window {
     id: mainWin
     color: "#21282d"
     height: 480
+    width:480
+    minimumHeight: 400
+    minimumWidth:400
     objectName: "objMainWin"
     title: qsTr("chatgpt 3.5 turbo")
     visible: true
-    width: 640
 
     function addChatMessage(arg1, arg2) {
         console.log("qml slot runing", arg1, arg2);
@@ -17,7 +19,17 @@ Window {
             "msg": arg2
         };
         modelList.append(data);
+        loading.end_loading();
     }
+    function replyError(arg1) {
+        console.log("qml slot runing", arg1);
+        var data = {
+            "role": "Error",
+            "msg": arg1
+        };
+         modelList.append(data);
+        loading.end_loading();
+        }
 
     ListModel {
         id: modelList
@@ -32,17 +44,18 @@ Window {
         anchors.leftMargin: 10
         anchors.top: parent.top
         anchors.topMargin: 10
+        anchors.bottomMargin :15
+        anchors.bottom :rectMessageEdit.top
         color: "transparent"
-        height: 300
         width: mainWin.width - 20
     }
     ListView {
         id: listViewMesg
         anchors.fill: listViewRect
         clip: true
-        interactive: true//鍏冪礌鍙嫋鍔�
+        interactive: true //元素可拖动
         model: modelList
-        orientation: ListView.Vertical//鍨傜洿鍒楄〃
+        orientation: ListView.Vertical
         parent: listViewRect
         spacing: 5
 
@@ -101,8 +114,9 @@ Window {
                 z: 1
             }
             Rectangle {
+                //msg文字背景
                 anchors.fill: msgText
-                border.color: "#55e5c5" //msg鏂囧瓧鑳屾櫙
+                border.color: "#55e5c5"
                 border.width: 1
                 color: "#111416"
                 radius: 3
@@ -111,6 +125,7 @@ Window {
         }
     }
     Button {
+        //发送按钮
         id: sendBtn
         anchors.left: rectMessageEdit.right
         anchors.leftMargin: 4
@@ -126,9 +141,10 @@ Window {
             modelList.append(data);
             openAIAPI.sendMessage(inputData.text);
             inputData.clear();
+            loading.start_loading()
         }
 
-        //璁剧疆鎸夐挳鑳屾櫙棰滆壊
+        //按钮背景色
         background: Rectangle {
             color: "#55e5c5"
             radius: 4
@@ -139,7 +155,7 @@ Window {
         anchors.bottom: parent.bottom
         anchors.bottomMargin: 10
         anchors.left: parent.left
-        anchors.leftMargin: 10
+        anchors.leftMargin: 25
         border.color: "#2e2f30"
         border.width: 2
         height: inputData.height + 8
@@ -176,6 +192,7 @@ Window {
                 modelList.append(data);
                 openAIAPI.sendMessage(inputData.text);
                 inputData.clear();
+                loading.start_loading()
             }
             onTextChanged: console.log(inputData.text)
 
@@ -191,6 +208,13 @@ Window {
                 visible: (inputData.text === "" & !inputData.focus) ? true : false
             }
         }
+    }
+    Loading{
+        id:loading
+        z:1
+        anchors.centerIn: parent
+        width: 50
+        height: 50
     }
 }
 
