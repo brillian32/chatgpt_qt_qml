@@ -15,6 +15,7 @@ public:
     ~PostData();
     void addSinglePostData(const QString& role, QString& msg);
     const QJsonObject& getPostDatas();
+    void  saveToLocalJson();
 
 private:
     void initPostDatas();

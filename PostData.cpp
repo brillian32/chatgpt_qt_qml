@@ -4,6 +4,8 @@
 
 #include "PostData.h"
 #include <QJsonArray>
+#include <QFile>
+#include "QJsonDocument"
 PostData::PostData() {
     initPostDatas();
 }
@@ -35,8 +37,27 @@ void PostData::addSinglePostData(const QString& role, QString& msg)
         m_postDatas.remove("messages");
     }
     m_postDatas.insert("messages",m_jsonArray);
+
+    //todo test
+    saveToLocalJson();
 }
 
 const QJsonObject &PostData::getPostDatas() {
     return m_postDatas;
 }
+
+void PostData::saveToLocalJson() {
+    QFile file("E:/chatGpt_session.json");
+    if (!file.open(QIODevice::WriteOnly)) {
+        qDebug() << "File open error";
+    }
+    else {
+        qDebug() << "File open!";
+    }
+    QJsonDocument jsonDoc;
+    jsonDoc.setObject(m_postDatas);
+    // 将json以文本形式写入文件并关闭文件。
+    file.write(jsonDoc.toJson());
+    file.close();
+}
+
