@@ -162,9 +162,13 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
+    <Image Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\logo.png">
+    </Image>
     <None Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug-visual-studio\chatgpt_qml\qmldir">
     </None>
     <None Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\main.qml">
+    </None>
+    <None Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\Loading.qml">
     </None>
   </ItemGroup>
   <ItemGroup>

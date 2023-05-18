@@ -1,3 +1,12 @@
-$GIT_DIR/.idea/*
-$GIT_DIR/cmake-*/*
+.idea
+.vscode
+cmake-build-debug
+cmake-build-debug-mingw
+cmake-build-debug-visual-studio
+cmake-build-minsizerel
+cmake-build-minsizerel
+cmake-build-release
+cmake-build-relwithdebinfo
+build
 
+.idea/deployment.xml

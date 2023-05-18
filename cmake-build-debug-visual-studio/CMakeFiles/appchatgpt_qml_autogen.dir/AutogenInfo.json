@@ -397,6 +397,7 @@
 		"E:/Qt/6.2.4/msvc2019_64/lib/cmake/Qt6Network/Qt6NetworkVersionlessTargets.cmake",
 		"E:/Qt/6.2.4/msvc2019_64/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in",
 		"E:/Qt/6.2.4/msvc2019_64/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in",
+		"E:/Qt/6.2.4/msvc2019_64/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in",
 		"E:/Qt/6.2.4/msvc2019_64/lib/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in"
 	],
 	"CMAKE_SOURCE_DIR" : "C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml",
@@ -408,6 +409,12 @@
 			"C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/GptResponseParseHelper.h",
 			"Mu",
 			"EWIEGA46WW/moc_GptResponseParseHelper.cpp",
+			null
+		],
+		[
+			"C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/PostData.h",
+			"Mu",
+			"EWIEGA46WW/moc_PostData.cpp",
 			null
 		],
 		[
@@ -499,8 +506,10 @@
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : 
 	[
+		"C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio/.rcc/qmlcache/appchatgpt_qml_Loading_qml.cpp",
 		"C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio/.rcc/qmlcache/appchatgpt_qml_main_qml.cpp",
 		"C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio/.rcc/qrc_appchatgpt_qml_raw_qml_0.cpp",
+		"C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio/.rcc/qrc_images.cpp",
 		"C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio/.rcc/qrc_qmake_chatgpt_qml.cpp",
 		"C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio/appchatgpt_qml_qmltyperegistrations.cpp"
 	],
@@ -524,6 +533,11 @@
 	[
 		[
 			"C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/GptResponseParseHelper.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/PostData.cpp",
 			"Mu",
 			null
 		],

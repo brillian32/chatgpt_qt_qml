@@ -1,2 +1,1 @@
-# chatgpt_qt_qml
- 
+#chatgpt_qt_qml

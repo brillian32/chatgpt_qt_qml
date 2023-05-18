@@ -6,7 +6,7 @@ set(CMAKE_PREFIX_PATH "E:/Qt/6.2.4/msvc2019_64")
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-find_package(Qt6 6.2 COMPONENTS Quick Network REQUIRED)
+find_package(Qt6 6.2.4 COMPONENTS Quick Network REQUIRED)
 
 
 qt_add_executable(appchatgpt_qml

@@ -33,6 +33,17 @@
                         ],
                         "name": "sigAddMessage",
                         "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "msg",
+                                "type": "QVariant"
+                            }
+                        ],
+                        "name": "sigReplyfalied",
+                        "returnType": "void"
                     }
                 ],
                 "superClasses": [

@@ -75,7 +75,6 @@ import QtMultimedia
 */
 
 // TODO: Restore Qt System Info docs when the module is released
-
 Item {
     id: video
 

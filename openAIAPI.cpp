@@ -73,3 +73,7 @@ void openAIAPI::sendMessage(QString msg) {
     postRequest();
 }
 
+bool openAIAPI::eventFilter(QObject *watched, QEvent *event)
+{
+    return QObject::eventFilter(watched,event);
+}

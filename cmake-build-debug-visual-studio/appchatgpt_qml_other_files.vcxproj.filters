@@ -4,9 +4,18 @@
     <CustomBuild Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug-visual-studio\chatgpt_qml\qmldir" />
-    <None Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\main.qml" />
+    <Image Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\logo.png">
+      <Filter>Resources</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
+    <None Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug-visual-studio\chatgpt_qml\qmldir" />
+    <None Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\main.qml" />
+    <None Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\Loading.qml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{69737D4E-95F8-3F2C-B785-AE778BF2031A}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
 </Project>

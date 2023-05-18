@@ -27,7 +27,7 @@ Window {
             "role": "Error",
             "msg": arg1
         };
-         modelList.append(data);
+        modelList.append(data);
         loading.end_loading();
         }
 
@@ -182,7 +182,7 @@ Window {
             wrapMode: TextInput.WrapAnywhere
 
             onAccepted: {
-                console.log("onAccepted");
+                console.log("onAccepted...");
 
                 console.log(inputData.text);
                 var data = {
@@ -194,6 +194,11 @@ Window {
                 inputData.clear();
                 loading.start_loading()
             }
+
+            // Keys.onReturnPressed: {
+            //     console.log("Return key pressed")
+            // }
+
             onTextChanged: console.log(inputData.text)
 
             Text {
