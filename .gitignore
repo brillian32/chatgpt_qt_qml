@@ -8,5 +8,7 @@ cmake-build-minsizerel
 cmake-build-release
 cmake-build-relwithdebinfo
 build
-
 .idea/deployment.xml
+cmake-build-debug-visual-studio/Testing/Temporary/LastTest.log
+*.log
+*.log

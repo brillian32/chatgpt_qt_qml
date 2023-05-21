@@ -29,4 +29,3 @@ void GptResponseParseHelper::parseResponse() {
 singleAnwser GptResponseParseHelper::getAnwser() {
     return m_anwserList.first();
 }
-

@@ -1,7 +1,0 @@
-<RCC>
-  <qresource prefix="/chatgpt_qml/">
-    <file alias="main.qml">C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/main.qml</file>
-    <file alias="Loading.qml">C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/Loading.qml</file>
-  </qresource>
-</RCC>
-

@@ -1,6 +1,12 @@
 import QtQuick
 import QtQuick.Controls
 
+//todo:
+//1.自动滚下 //done
+//2.保存与复原对话
+//3.UI热加载接入
+//4.上下按键访问最近的问题 //done
+
 Window {
     id: mainWin
     color: "#21282d"
@@ -20,6 +26,7 @@ Window {
         };
         modelList.append(data);
         loading.end_loading();
+        scroll_bar.position = 1; //跳转到listview最底下
     }
     function replyError(arg1) {
         console.log("qml slot runing", arg1);
@@ -29,6 +36,7 @@ Window {
         };
         modelList.append(data);
         loading.end_loading();
+        scroll_bar.position = 1; //跳转到listview最底下
         }
 
     ListModel {
@@ -49,7 +57,8 @@ Window {
         color: "transparent"
         width: mainWin.width - 20
     }
-    ListView {
+
+        ListView {
         id: listViewMesg
         anchors.fill: listViewRect
         clip: true
@@ -58,13 +67,14 @@ Window {
         orientation: ListView.Vertical
         parent: listViewRect
         spacing: 5
-
         ScrollBar.vertical: ScrollBar {
-            id: scrollBar
+            id: scroll_bar
             minimumSize: 0.1
             size: 0.5
             width: 10
-
+            anchors.top: parent.top
+            anchors.bottom:parent.bottom
+            anchors.right : parent.right
             onActiveChanged: {
                 console.log("onActiveChanged========================");
                 active = true;
@@ -74,7 +84,7 @@ Window {
                 color: "#21282d"
             }
             contentItem: Rectangle {
-                color: scrollBar.pressed ? "#4a545c" : "#394048"
+                color: scroll_bar.pressed ? "#4a545c" : "#394048"
                 radius: width / 2
             }
         }
@@ -109,7 +119,7 @@ Window {
                 selectByMouse: true
                 text: msg
                 textFormat: TextEdit.MarkdownText
-                width: parent.width - 20
+                width: parent.width - 25
                 wrapMode: TextInput.WrapAnywhere
                 z: 1
             }
@@ -123,8 +133,10 @@ Window {
                 z: 0
             }
         }
-    }
+       }
+
     Button {
+        property int lastAsk: 0
         //发送按钮
         id: sendBtn
         anchors.left: rectMessageEdit.right
@@ -132,16 +144,27 @@ Window {
         anchors.verticalCenter: rectMessageEdit.verticalCenter
         text: "send"
 
+        ListModel{
+            id: sendMsg_list
+        }
+
         onPressed: {
             console.log(inputData.text);
             var data = {
                 "role": "user",
                 "msg": inputData.text
             };
+            var _data = {
+                "msg": inputData.text
+            };
             modelList.append(data);
+            scroll_bar.position = 1; //跳转到listview最底下
             openAIAPI.sendMessage(inputData.text);
             inputData.clear();
             loading.start_loading()
+
+            sendMsg_list.append(_data)
+            sendBtn.lastAsk = sendMsg_list.count - 1
         }
 
         //按钮背景色
@@ -189,15 +212,40 @@ Window {
                     "role": "user",
                     "msg": inputData.text
                 };
+                var _data = {
+                    "msg": inputData.text
+                };
                 modelList.append(data);
                 openAIAPI.sendMessage(inputData.text);
                 inputData.clear();
                 loading.start_loading()
+
+                sendMsg_list.append(_data)
+                sendBtn.lastAsk = sendMsg_list.count - 1
             }
 
-            // Keys.onReturnPressed: {
-            //     console.log("Return key pressed")
-            // }
+            focus:true
+            Keys.onPressed: {
+                if(event.key === Qt.Key_Up)
+                {
+
+                    console.log("Key_Up was pressed");
+                    event.accepted = true;
+
+                    console.log("lastAsk",sendBtn.lastAsk)
+                    inputData.text = sendMsg_list.get(sendBtn.lastAsk).msg;
+                    if(sendBtn.lastAsk > 0) {sendBtn.lastAsk = sendBtn.lastAsk -1;}
+                }
+                if(event.key === Qt.Key_Down)
+                {
+                    console.log("Key_Down was pressed");
+                    event.accepted = true;
+                    if(sendBtn.lastAsk < sendMsg_list.count-1) {sendBtn.lastAsk = sendBtn.lastAsk + 1;}
+
+                    console.log("lastAsk",sendBtn.lastAsk)
+                    inputData.text = sendMsg_list.get(sendBtn.lastAsk).msg;
+                }
+            }
 
             onTextChanged: console.log(inputData.text)
 

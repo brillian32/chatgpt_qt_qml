@@ -6,8 +6,12 @@
 #include <QJsonArray>
 #include <QFile>
 #include "QJsonDocument"
+#include "qdatetime.h"
+#include "qdir.h"
+
 PostData::PostData() {
     initPostDatas();
+    setFileNameWithStartTime();
 }
 
 PostData::~PostData() {
@@ -47,7 +51,7 @@ const QJsonObject &PostData::getPostDatas() {
 }
 
 void PostData::saveToLocalJson() {
-    QFile file("E:/chatGpt_session.json");
+    QFile file(m_fileName);
     if (!file.open(QIODevice::WriteOnly)) {
         qDebug() << "File open error";
     }
@@ -59,5 +63,16 @@ void PostData::saveToLocalJson() {
     // 将json以文本形式写入文件并关闭文件。
     file.write(jsonDoc.toJson());
     file.close();
+}
+
+void PostData::setFileNameWithStartTime() {
+    QString directory = "E:/chatGptData";
+    QDir dir(directory);
+    if (!dir.exists()) {
+        // 目录不存在，先创建
+        dir.mkpath(directory);
+    }
+    auto currentTime = QTime::currentTime();
+    m_fileName = QString("%3/chatGpt_session_%1_%2.json").arg(currentTime.toString("hh_mm_ss_zzz")).arg(QDate::currentDate().year()).arg(directory);
 }
 

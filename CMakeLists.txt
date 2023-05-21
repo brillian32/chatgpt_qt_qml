@@ -9,7 +9,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 find_package(Qt6 6.2.4 COMPONENTS Quick Network REQUIRED)
 
 
-qt_add_executable(appchatgpt_qml
+qt_add_executable(appchatgpt_qml WIN32
     main.cpp
     openAIAPI.cpp openAIAPI.h GptResponseParseHelper.h GptResponseParseHelper.cpp
    # markdown2html.js
@@ -22,7 +22,7 @@ qt_add_resources(appchatgpt_qml "images"
 qt_add_qml_module(appchatgpt_qml
     URI chatgpt_qml
     VERSION 1.0
-    QML_FILES main.qml Loading.qml
+    QML_FILES main.qml Loading.qml MsgList.qml
 )
 
 set_target_properties(appchatgpt_qml PROPERTIES

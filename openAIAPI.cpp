@@ -14,7 +14,6 @@
 #include <QJsonArray>
 #include "GptResponseParseHelper.h"
 openAIAPI::openAIAPI() {
-
 }
 
 openAIAPI::~openAIAPI() {
@@ -71,9 +70,4 @@ void openAIAPI::postRequest( )
 void openAIAPI::sendMessage(QString msg) {
     m_msg = msg;
     postRequest();
-}
-
-bool openAIAPI::eventFilter(QObject *watched, QEvent *event)
-{
-    return QObject::eventFilter(watched,event);
 }

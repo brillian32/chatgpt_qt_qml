@@ -2,6 +2,7 @@ import QtQuick
 import QtQuick.Controls
 import QtQuick.Shapes 1.2
 
+
 Item {
 
     function start_loading() {
