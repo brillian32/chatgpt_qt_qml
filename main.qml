@@ -6,8 +6,19 @@ import QtQuick.Controls
 //2.保存与复原对话
 //3.UI热加载接入
 //4.上下按键访问最近的问题 //done
+//5.增加皮肤颜色控制 //done
+
 
 Window {
+
+    Item{
+        id:skin_color
+        property string user_color : "#45f3bf";
+        property string reply_color : "#35b6f0";
+        property string error_color : "#d94747";
+        property string system_color : "#cfcfcf";
+    }
+
     id: mainWin
     color: "#21282d"
     height: 480
@@ -22,8 +33,13 @@ Window {
         console.log("qml slot runing", arg1, arg2);
         var data = {
             "role": arg1,
-            "msg": arg2
+            "msg": arg2,
+            "back_color": skin_color.reply_color
         };
+        if(data.role === "user")
+        {
+            data.back_color =  skin_color.user_color
+        }
         modelList.append(data);
         loading.end_loading();
         scroll_bar.position = 1; //跳转到listview最底下
@@ -32,7 +48,8 @@ Window {
         console.log("qml slot runing", arg1);
         var data = {
             "role": "Error",
-            "msg": arg1
+            "msg": arg1,
+            "back_color": skin_color.error_color
         };
         modelList.append(data);
         loading.end_loading();
@@ -41,11 +58,13 @@ Window {
 
     ListModel {
         id: modelList
-        ListElement {
-            msg: "用中文回答问题"
-            role: "system"
+        Component.onCompleted: {
+            modelList.append({   msg: "用中文回答问题",
+                                 role: "system",
+                                 back_color : skin_color.system_color})
         }
     }
+
     Rectangle {
         id: listViewRect
         anchors.left: parent.left
@@ -90,9 +109,9 @@ Window {
         }
         delegate: Rectangle {
             id: chatMsgRect
-            border.color: "#55e5c5"
+            border.color: back_color
             border.width: 1
-            color: "#45f3bf"
+            color: back_color
             height: roleText.height + msgText.height + 10 + 5
             radius: 4
             width: listViewMesg.width
@@ -126,7 +145,7 @@ Window {
             Rectangle {
                 //msg文字背景
                 anchors.fill: msgText
-                border.color: "#55e5c5"
+                border.color: back_color
                 border.width: 1
                 color: "#111416"
                 radius: 3
@@ -152,11 +171,13 @@ Window {
             console.log(inputData.text);
             var data = {
                 "role": "user",
-                "msg": inputData.text
+                "msg": inputData.text,
+                "back_color": skin_color.user_color
             };
             var _data = {
                 "msg": inputData.text
             };
+
             modelList.append(data);
             scroll_bar.position = 1; //跳转到listview最底下
             openAIAPI.sendMessage(inputData.text);
@@ -210,18 +231,20 @@ Window {
                 console.log(inputData.text);
                 var data = {
                     "role": "user",
-                    "msg": inputData.text
+                    "msg": inputData.text,
+                    "back_color": skin_color.user_color
                 };
                 var _data = {
                     "msg": inputData.text
                 };
                 modelList.append(data);
+                scroll_bar.position = 1
                 openAIAPI.sendMessage(inputData.text);
                 inputData.clear();
                 loading.start_loading()
 
                 sendMsg_list.append(_data)
-                sendBtn.lastAsk = sendMsg_list.count - 1
+                sendBtn.lastAsk = sendMsg_list.count
             }
 
             focus:true
