@@ -164,7 +164,7 @@ Window {
             loading.start_loading()
 
             sendMsg_list.append(_data)
-            sendBtn.lastAsk = sendMsg_list.count - 1
+            sendBtn.lastAsk = sendMsg_list.count
         }
 
         //按钮背景色
@@ -228,20 +228,19 @@ Window {
             Keys.onPressed: {
                 if(event.key === Qt.Key_Up)
                 {
-
                     console.log("Key_Up was pressed");
                     event.accepted = true;
-
+                    if(sendBtn.lastAsk > 0) {sendBtn.lastAsk = sendBtn.lastAsk -1;}
+                    else   {sendBtn.lastAsk  = 0}
                     console.log("lastAsk",sendBtn.lastAsk)
                     inputData.text = sendMsg_list.get(sendBtn.lastAsk).msg;
-                    if(sendBtn.lastAsk > 0) {sendBtn.lastAsk = sendBtn.lastAsk -1;}
                 }
                 if(event.key === Qt.Key_Down)
                 {
                     console.log("Key_Down was pressed");
                     event.accepted = true;
                     if(sendBtn.lastAsk < sendMsg_list.count-1) {sendBtn.lastAsk = sendBtn.lastAsk + 1;}
-
+                    else {sendBtn.lastAsk = sendMsg_list.count-1}
                     console.log("lastAsk",sendBtn.lastAsk)
                     inputData.text = sendMsg_list.get(sendBtn.lastAsk).msg;
                 }

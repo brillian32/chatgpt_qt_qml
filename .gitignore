@@ -12,3 +12,4 @@ build
 cmake-build-debug-visual-studio/Testing/Temporary/LastTest.log
 *.log
 *.log
+*.user
