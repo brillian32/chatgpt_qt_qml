@@ -4,7 +4,6 @@ import QtQuick.Shapes 1.2
 
 
 Item {
-
     function start_loading() {
         loading_animation.start();
         rect.visible = true;

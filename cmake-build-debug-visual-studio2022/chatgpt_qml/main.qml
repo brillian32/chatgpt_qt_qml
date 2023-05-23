@@ -11,7 +11,6 @@ import QtQuick.Controls
 
 
 Window {
-
     id: mainWin
     color: "#21282d"
     height: 480
