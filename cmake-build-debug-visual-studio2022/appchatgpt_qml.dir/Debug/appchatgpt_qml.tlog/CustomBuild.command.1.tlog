@@ -1,0 +1,116 @@
+^C:\USERS\17305\DOCUMENTS\CHATGPT_QML\CHATGPT_QT_QML\CMAKE-BUILD-DEBUG-VISUAL-STUDIO2022\CMAKEFILES\BFDFC655DA71806542A93732BB58226F\QRC_IMAGES.CPP.RULE
+setlocal
+E:\Qt6\6.4.3\msvc2019_64\.\bin\rcc.exe --output C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/.rcc/qrc_images.cpp --name images C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/.rcc/images.qrc --no-zstd
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\17305\DOCUMENTS\CHATGPT_QML\CHATGPT_QT_QML\CMAKE-BUILD-DEBUG-VISUAL-STUDIO2022\CMAKEFILES\D017FC113DBCBB6F35C16E41E8C89A53\QT6APPCHATGPT_QML_METATYPES.JSON.GEN.RULE
+setlocal
+E:\Qt6\6.4.3\msvc2019_64\.\bin\moc.exe -o C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/meta_types/qt6appchatgpt_qml_metatypes.json.gen --collect-json @C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/meta_types/appchatgpt_qml_json_file_list.txt
+if %errorlevel% neq 0 goto :cmEnd
+"E:\JetBrains\CLion 2023.1.1\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/meta_types/qt6appchatgpt_qml_metatypes.json.gen C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/meta_types/qt6appchatgpt_qml_metatypes.json
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\17305\DOCUMENTS\CHATGPT_QML\CHATGPT_QT_QML\CMAKE-BUILD-DEBUG-VISUAL-STUDIO2022\CMAKEFILES\ABE20E8751DFB898082A01AC6E7FABCD\APPCHATGPT_QML_QMLTYPEREGISTRATIONS.CPP.RULE
+setlocal
+call .qt\bin\qt_setup_tool_path.bat E:/Qt6/6.4.3/msvc2019_64/./bin/qmltyperegistrar.exe --generate-qmltypes=C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/chatgpt_qml/appchatgpt_qml.qmltypes --import-name=chatgpt_qml --major-version=1 --minor-version=0 @C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/qmltypes/appchatgpt_qml_foreign_types.txt -o C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/appchatgpt_qml_qmltyperegistrations.cpp C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/meta_types/qt6appchatgpt_qml_metatypes.json
+if %errorlevel% neq 0 goto :cmEnd
+"E:\JetBrains\CLion 2023.1.1\bin\cmake\win\x64\bin\cmake.exe" -E make_directory C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/.generated
+if %errorlevel% neq 0 goto :cmEnd
+"E:\JetBrains\CLion 2023.1.1\bin\cmake\win\x64\bin\cmake.exe" -E touch C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/.generated/appchatgpt_qml.qmltypes
+if %errorlevel% neq 0 goto :cmEnd
+"E:\JetBrains\CLion 2023.1.1\bin\cmake\win\x64\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 17 2022" MSBuildAdditionalInputs C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022 C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022 C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/qmltypes/appchatgpt_qml_qmltyperegistrations.cpp.d C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/CMakeFiles/d/c2637a41451f98a07e8868a434e6db3cf439427e3e3674652475b9de3a759e95.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\17305\DOCUMENTS\CHATGPT_QML\CHATGPT_QT_QML\CMAKE-BUILD-DEBUG-VISUAL-STUDIO2022\CMAKEFILES\BFDFC655DA71806542A93732BB58226F\QRC_QMAKE_CHATGPT_QML.CPP.RULE
+setlocal
+E:\Qt6\6.4.3\msvc2019_64\.\bin\rcc.exe --output C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/.rcc/qrc_qmake_chatgpt_qml.cpp --name qmake_chatgpt_qml C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/.rcc/qmake_chatgpt_qml.qrc --no-zstd
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\17305\DOCUMENTS\CHATGPT_QML\CHATGPT_QT_QML\CMAKE-BUILD-DEBUG-VISUAL-STUDIO2022\CMAKEFILES\71087B8365BEF700DCA484FF1A2EA1B0\APPCHATGPT_QML_MAIN_QML.CPP.RULE
+setlocal
+"E:\JetBrains\CLion 2023.1.1\bin\cmake\win\x64\bin\cmake.exe" -E make_directory C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/.rcc/qmlcache
+if %errorlevel% neq 0 goto :cmEnd
+call .qt\bin\qt_setup_tool_path.bat E:/Qt6/6.4.3/msvc2019_64/./bin/qmlcachegen.exe --bare --resource-path /chatgpt_qml/main.qml -I C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022 -I E:/Qt6/6.4.3/msvc2019_64/./qml -i C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/chatgpt_qml/qmldir --resource C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/.rcc/images.qrc --resource C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/.rcc/qmake_chatgpt_qml.qrc --resource C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/.rcc/appchatgpt_qml_raw_qml_0.qrc -o C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/.rcc/qmlcache/appchatgpt_qml_main_qml.cpp C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/main.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\17305\DOCUMENTS\CHATGPT_QML\CHATGPT_QT_QML\CMAKE-BUILD-DEBUG-VISUAL-STUDIO2022\CMAKEFILES\71087B8365BEF700DCA484FF1A2EA1B0\APPCHATGPT_QML_LOADING_QML.CPP.RULE
+setlocal
+"E:\JetBrains\CLion 2023.1.1\bin\cmake\win\x64\bin\cmake.exe" -E make_directory C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/.rcc/qmlcache
+if %errorlevel% neq 0 goto :cmEnd
+call .qt\bin\qt_setup_tool_path.bat E:/Qt6/6.4.3/msvc2019_64/./bin/qmlcachegen.exe --bare --resource-path /chatgpt_qml/Loading.qml -I C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022 -I E:/Qt6/6.4.3/msvc2019_64/./qml -i C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/chatgpt_qml/qmldir --resource C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/.rcc/images.qrc --resource C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/.rcc/qmake_chatgpt_qml.qrc --resource C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/.rcc/appchatgpt_qml_raw_qml_0.qrc -o C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/.rcc/qmlcache/appchatgpt_qml_Loading_qml.cpp C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/Loading.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\17305\DOCUMENTS\CHATGPT_QML\CHATGPT_QT_QML\CMAKE-BUILD-DEBUG-VISUAL-STUDIO2022\CMAKEFILES\71087B8365BEF700DCA484FF1A2EA1B0\APPCHATGPT_QML_MSGCONTENT_QML.CPP.RULE
+setlocal
+"E:\JetBrains\CLion 2023.1.1\bin\cmake\win\x64\bin\cmake.exe" -E make_directory C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/.rcc/qmlcache
+if %errorlevel% neq 0 goto :cmEnd
+call .qt\bin\qt_setup_tool_path.bat E:/Qt6/6.4.3/msvc2019_64/./bin/qmlcachegen.exe --bare --resource-path /chatgpt_qml/MsgContent.qml -I C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022 -I E:/Qt6/6.4.3/msvc2019_64/./qml -i C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/chatgpt_qml/qmldir --resource C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/.rcc/images.qrc --resource C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/.rcc/qmake_chatgpt_qml.qrc --resource C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/.rcc/appchatgpt_qml_raw_qml_0.qrc -o C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/.rcc/qmlcache/appchatgpt_qml_MsgContent_qml.cpp C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/MsgContent.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\17305\DOCUMENTS\CHATGPT_QML\CHATGPT_QT_QML\CMAKE-BUILD-DEBUG-VISUAL-STUDIO2022\CMAKEFILES\71087B8365BEF700DCA484FF1A2EA1B0\APPCHATGPT_QML_SKINCOLOR_QML.CPP.RULE
+setlocal
+"E:\JetBrains\CLion 2023.1.1\bin\cmake\win\x64\bin\cmake.exe" -E make_directory C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/.rcc/qmlcache
+if %errorlevel% neq 0 goto :cmEnd
+call .qt\bin\qt_setup_tool_path.bat E:/Qt6/6.4.3/msvc2019_64/./bin/qmlcachegen.exe --bare --resource-path /chatgpt_qml/SkinColor.qml -I C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022 -I E:/Qt6/6.4.3/msvc2019_64/./qml -i C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/chatgpt_qml/qmldir --resource C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/.rcc/images.qrc --resource C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/.rcc/qmake_chatgpt_qml.qrc --resource C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/.rcc/appchatgpt_qml_raw_qml_0.qrc -o C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/.rcc/qmlcache/appchatgpt_qml_SkinColor_qml.cpp C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/SkinColor.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\17305\DOCUMENTS\CHATGPT_QML\CHATGPT_QT_QML\CMAKE-BUILD-DEBUG-VISUAL-STUDIO2022\CMAKEFILES\BFDFC655DA71806542A93732BB58226F\QRC_APPCHATGPT_QML_RAW_QML_0.CPP.RULE
+setlocal
+E:\Qt6\6.4.3\msvc2019_64\.\bin\rcc.exe --output C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/.rcc/qrc_appchatgpt_qml_raw_qml_0.cpp --name appchatgpt_qml_raw_qml_0 C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/.rcc/appchatgpt_qml_raw_qml_0.qrc --no-zstd
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\17305\DOCUMENTS\CHATGPT_QML\CHATGPT_QT_QML\CMAKELISTS.TXT
+setlocal
+"E:\JetBrains\CLion 2023.1.1\bin\cmake\win\x64\bin\cmake.exe" -SC:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml -BC:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022 --check-stamp-file C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

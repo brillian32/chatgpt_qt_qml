@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug-visual-studio2022\CMakeFiles\1e4b4c87c43c2665e5ad4365f8229cbb\main.qml.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug-visual-studio2022\CMakeFiles\1e4b4c87c43c2665e5ad4365f8229cbb\Loading.qml.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug-visual-studio2022\CMakeFiles\1e4b4c87c43c2665e5ad4365f8229cbb\MsgContent.qml.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug-visual-studio2022\CMakeFiles\1e4b4c87c43c2665e5ad4365f8229cbb\SkinColor.qml.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug-visual-studio2022\chatgpt_qml\main.qml" />
+    <None Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug-visual-studio2022\chatgpt_qml\Loading.qml" />
+    <None Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug-visual-studio2022\chatgpt_qml\MsgContent.qml" />
+    <None Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug-visual-studio2022\chatgpt_qml\SkinColor.qml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{7A26A34C-232D-321D-8C8E-12B4EA43ECD1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

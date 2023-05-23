@@ -1,0 +1,15 @@
+C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/CMakeFiles/appchatgpt_qml.dir
+C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/CMakeFiles/appchatgpt_qml_other_files.dir
+C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/CMakeFiles/appchatgpt_qml_automoc_json_extraction.dir
+C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/CMakeFiles/appchatgpt_qml_qmltyperegistration.dir
+C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/CMakeFiles/all_qmltyperegistrations.dir
+C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/CMakeFiles/appchatgpt_qml_qmllint.dir
+C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/CMakeFiles/appchatgpt_qml_qmllint_json.dir
+C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/CMakeFiles/all_qmllint.dir
+C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/CMakeFiles/all_qmllint_json.dir
+C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/CMakeFiles/appchatgpt_qml_tooling.dir
+C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/CMakeFiles/appchatgpt_qml_qmlimportscan.dir
+C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/CMakeFiles/INSTALL.dir
+C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/CMakeFiles/appchatgpt_qml_autogen.dir
+C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/CMakeFiles/ALL_BUILD.dir
+C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,16 @@
+-rootPath
+C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml
+-cmake-output
+-output-file
+C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/.qt_plugins/Qt6_QmlPlugins_Imports_appchatgpt_qml.cmake
+-importPath
+C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/chatgpt_qml
+-importPath
+C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022
+-importPath
+E:/Qt6/6.4.3/msvc2019_64/./qml
+-qrcFiles
+C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/.rcc/images.qrc
+C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/.rcc/translations.qrc
+C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/.rcc/qmake_chatgpt_qml.qrc
+C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/.rcc/appchatgpt_qml_raw_qml_0.qrc
