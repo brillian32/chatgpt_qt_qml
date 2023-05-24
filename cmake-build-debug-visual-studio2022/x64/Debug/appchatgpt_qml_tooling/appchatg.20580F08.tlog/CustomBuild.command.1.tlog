@@ -1,10 +1,10 @@
-^C:\USERS\17305\DOCUMENTS\CHATGPT_QML\CHATGPT_QT_QML\CMAKE-BUILD-DEBUG-VISUAL-STUDIO2022\CMAKEFILES\1E4B4C87C43C2665E5AD4365F8229CBB\MAIN.QML.RULE
+^C:\USERS\17305\DOCUMENTS\CHATGPT_QML\CHATGPT_QT_QML\CMAKE-BUILD-DEBUG-VISUAL-STUDIO2022\CMAKEFILES\805E48D80922D3DE4032620C938002CE\MAIN.QML.RULE
 setlocal
 cd C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"E:\JetBrains\CLion 2023.1.1\bin\cmake\win\x64\bin\cmake.exe" -E copy C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/main.qml C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/chatgpt_qml/main.qml
+"E:\JetBrains\CLion 2023.1.1\bin\cmake\win\x64\bin\cmake.exe" -E copy C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/qml/main.qml C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/chatgpt_qml/qml/main.qml
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -12,13 +12,13 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\17305\DOCUMENTS\CHATGPT_QML\CHATGPT_QT_QML\CMAKE-BUILD-DEBUG-VISUAL-STUDIO2022\CMAKEFILES\1E4B4C87C43C2665E5AD4365F8229CBB\LOADING.QML.RULE
+^C:\USERS\17305\DOCUMENTS\CHATGPT_QML\CHATGPT_QT_QML\CMAKE-BUILD-DEBUG-VISUAL-STUDIO2022\CMAKEFILES\805E48D80922D3DE4032620C938002CE\LOADING.QML.RULE
 setlocal
 cd C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"E:\JetBrains\CLion 2023.1.1\bin\cmake\win\x64\bin\cmake.exe" -E copy C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/Loading.qml C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/chatgpt_qml/Loading.qml
+"E:\JetBrains\CLion 2023.1.1\bin\cmake\win\x64\bin\cmake.exe" -E copy C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/qml/Loading.qml C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/chatgpt_qml/qml/Loading.qml
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -26,13 +26,13 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\17305\DOCUMENTS\CHATGPT_QML\CHATGPT_QT_QML\CMAKE-BUILD-DEBUG-VISUAL-STUDIO2022\CMAKEFILES\1E4B4C87C43C2665E5AD4365F8229CBB\MSGCONTENT.QML.RULE
+^C:\USERS\17305\DOCUMENTS\CHATGPT_QML\CHATGPT_QT_QML\CMAKE-BUILD-DEBUG-VISUAL-STUDIO2022\CMAKEFILES\805E48D80922D3DE4032620C938002CE\MSGCONTENT.QML.RULE
 setlocal
 cd C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"E:\JetBrains\CLion 2023.1.1\bin\cmake\win\x64\bin\cmake.exe" -E copy C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/MsgContent.qml C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/chatgpt_qml/MsgContent.qml
+"E:\JetBrains\CLion 2023.1.1\bin\cmake\win\x64\bin\cmake.exe" -E copy C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/qml/MsgContent.qml C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/chatgpt_qml/qml/MsgContent.qml
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -40,13 +40,13 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\17305\DOCUMENTS\CHATGPT_QML\CHATGPT_QT_QML\CMAKE-BUILD-DEBUG-VISUAL-STUDIO2022\CMAKEFILES\1E4B4C87C43C2665E5AD4365F8229CBB\SKINCOLOR.QML.RULE
+^C:\USERS\17305\DOCUMENTS\CHATGPT_QML\CHATGPT_QT_QML\CMAKE-BUILD-DEBUG-VISUAL-STUDIO2022\CMAKEFILES\805E48D80922D3DE4032620C938002CE\SKINCOLOR.QML.RULE
 setlocal
 cd C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"E:\JetBrains\CLion 2023.1.1\bin\cmake\win\x64\bin\cmake.exe" -E copy C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/SkinColor.qml C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/chatgpt_qml/SkinColor.qml
+"E:\JetBrains\CLion 2023.1.1\bin\cmake\win\x64\bin\cmake.exe" -E copy C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/qml/SkinColor.qml C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/chatgpt_qml/qml/SkinColor.qml
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

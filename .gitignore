@@ -5,6 +5,7 @@ cmake-build-debug-mingw
 cmake-build-debug-visual-studio
 cmake-build-minsizerel
 cmake-build-minsizerel
+cmake-build-debug-visual-studio2022
 cmake-build-release
 cmake-build-relwithdebinfo
 build
@@ -13,3 +14,4 @@ cmake-build-debug-visual-studio/Testing/Temporary/LastTest.log
 *.log
 *.log
 *.user
+*.json

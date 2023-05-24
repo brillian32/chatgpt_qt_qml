@@ -10,26 +10,29 @@ find_package(Qt6 6.4.3 COMPONENTS Quick Network REQUIRED)
 
 #find_package(Qt6 REQUIRED COMPONENTS Quick Network REQUIRED)
 
+source_group(include ./include/*)
+source_group(src ./src/*)
+
 
 qt_add_executable(appchatgpt_qml WIN32
-    main.cpp
-    openAIAPI.cpp openAIAPI.h GptResponseParseHelper.h GptResponseParseHelper.cpp
+    src/main.cpp
+    src/openAIAPI.cpp include/openAIAPI.h include/GptResponseParseHelper.h src/GptResponseParseHelper.cpp
    # markdown2html.js
-    PostData.cpp PostData.h
+    src/PostData.cpp include/PostData.h
     )
 
 qt_add_resources(appchatgpt_qml "images"
     PREFIX "/img"
-    FILES ./logo.png)
+    FILES resource/logo.png)
 
 qt_add_resources(appchatgpt_qml "translations"
     PREFIX "/lang"
-    FILES ./lang_zh.qm)
+    FILES tools/lang_zh.qm)
 
 qt_add_qml_module(appchatgpt_qml
     URI chatgpt_qml
     VERSION 1.0
-    QML_FILES main.qml Loading.qml MsgContent.qml SkinColor.qml
+    QML_FILES qml/main.qml qml/Loading.qml qml/MsgContent.qml qml/SkinColor.qml
 )
 
 set_target_properties(appchatgpt_qml PROPERTIES

@@ -1,1 +1,1 @@
-C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/appchatgpt_qml_autogen/include_Debug/EWIEGA46WW/moc_openAIAPI.cpp.json
+C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/appchatgpt_qml_autogen/include_Debug/6YEA5652QU/moc_openAIAPI.cpp.json

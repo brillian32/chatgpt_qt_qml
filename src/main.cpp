@@ -1,6 +1,6 @@
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
-#include "openAIAPI.h"
+#include "include/openAIAPI.h"
 #include <QObject>
 #include <QQmlContext>
 #include "qicon.h"
@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
 
     auto translator = new QTranslator(engine.rootContext());
 
-    const QUrl url(u"qrc:/chatgpt_qml/main.qml"_qs);
+    const QUrl url(u"qrc:/chatgpt_qml/qml/main.qml"_qs);
     QObject::connect(&engine, &QQmlApplicationEngine::objectCreated,
                      &app, [url](QObject *obj, const QUrl &objUrl) {
         if (!obj && url == objUrl)
@@ -41,7 +41,7 @@ int main(int argc, char *argv[])
     QObject::connect(&api,SIGNAL(sigReplyfalied(QVariant)),
                      qmlObj,SLOT(replyError(QVariant)));
 
-    QGuiApplication::setWindowIcon(QIcon(":/img/logo.png"));
+    QGuiApplication::setWindowIcon(QIcon(":/img/resource/logo.png"));
 
     //多语言
 //    QCoreApplication::installTranslator(translator);

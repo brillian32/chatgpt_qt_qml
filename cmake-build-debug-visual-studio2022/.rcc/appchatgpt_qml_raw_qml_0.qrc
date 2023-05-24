@@ -1,9 +1,9 @@
 <RCC>
   <qresource prefix="/chatgpt_qml/">
-    <file alias="main.qml">C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/main.qml</file>
-    <file alias="Loading.qml">C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/Loading.qml</file>
-    <file alias="MsgContent.qml">C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/MsgContent.qml</file>
-    <file alias="SkinColor.qml">C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/SkinColor.qml</file>
+    <file alias="qml/main.qml">C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/qml/main.qml</file>
+    <file alias="qml/Loading.qml">C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/qml/Loading.qml</file>
+    <file alias="qml/MsgContent.qml">C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/qml/MsgContent.qml</file>
+    <file alias="qml/SkinColor.qml">C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/qml/SkinColor.qml</file>
   </qresource>
 </RCC>
 

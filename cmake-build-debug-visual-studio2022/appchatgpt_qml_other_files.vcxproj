@@ -162,19 +162,19 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\logo.png">
+    <Image Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\resource\logo.png">
     </Image>
-    <None Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\lang_zh.qm">
+    <None Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\tools\lang_zh.qm">
     </None>
     <None Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug-visual-studio2022\chatgpt_qml\qmldir">
     </None>
-    <None Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\main.qml">
+    <None Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\qml\main.qml">
     </None>
-    <None Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\Loading.qml">
+    <None Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\qml\Loading.qml">
     </None>
-    <None Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\MsgContent.qml">
+    <None Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\qml\MsgContent.qml">
     </None>
-    <None Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\SkinColor.qml">
+    <None Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\qml\SkinColor.qml">
     </None>
   </ItemGroup>
   <ItemGroup>

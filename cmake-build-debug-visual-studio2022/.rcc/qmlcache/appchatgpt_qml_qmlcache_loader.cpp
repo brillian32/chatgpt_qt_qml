@@ -5,28 +5,28 @@
 #include <QtCore/qstring.h>
 
 namespace QmlCacheGeneratedCode {
-namespace _chatgpt_qml_main_qml { 
+namespace _chatgpt_qml_qml_main_qml { 
     extern const unsigned char qmlData[];
     extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
     const QQmlPrivate::CachedQmlUnit unit = {
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
     };
 }
-namespace _chatgpt_qml_Loading_qml { 
+namespace _chatgpt_qml_qml_Loading_qml { 
     extern const unsigned char qmlData[];
     extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
     const QQmlPrivate::CachedQmlUnit unit = {
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
     };
 }
-namespace _chatgpt_qml_MsgContent_qml { 
+namespace _chatgpt_qml_qml_MsgContent_qml { 
     extern const unsigned char qmlData[];
     extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
     const QQmlPrivate::CachedQmlUnit unit = {
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
     };
 }
-namespace _chatgpt_qml_SkinColor_qml { 
+namespace _chatgpt_qml_qml_SkinColor_qml { 
     extern const unsigned char qmlData[];
     extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
     const QQmlPrivate::CachedQmlUnit unit = {
@@ -47,10 +47,10 @@ Q_GLOBAL_STATIC(Registry, unitRegistry)
 
 
 Registry::Registry() {
-    resourcePathToCachedUnit.insert(QStringLiteral("/chatgpt_qml/main.qml"), &QmlCacheGeneratedCode::_chatgpt_qml_main_qml::unit);
-    resourcePathToCachedUnit.insert(QStringLiteral("/chatgpt_qml/Loading.qml"), &QmlCacheGeneratedCode::_chatgpt_qml_Loading_qml::unit);
-    resourcePathToCachedUnit.insert(QStringLiteral("/chatgpt_qml/MsgContent.qml"), &QmlCacheGeneratedCode::_chatgpt_qml_MsgContent_qml::unit);
-    resourcePathToCachedUnit.insert(QStringLiteral("/chatgpt_qml/SkinColor.qml"), &QmlCacheGeneratedCode::_chatgpt_qml_SkinColor_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/chatgpt_qml/qml/main.qml"), &QmlCacheGeneratedCode::_chatgpt_qml_qml_main_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/chatgpt_qml/qml/Loading.qml"), &QmlCacheGeneratedCode::_chatgpt_qml_qml_Loading_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/chatgpt_qml/qml/MsgContent.qml"), &QmlCacheGeneratedCode::_chatgpt_qml_qml_MsgContent_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/chatgpt_qml/qml/SkinColor.qml"), &QmlCacheGeneratedCode::_chatgpt_qml_qml_SkinColor_qml::unit);
     QQmlPrivate::RegisterQmlUnitCacheHook registration;
     registration.structVersion = 0;
     registration.lookupCachedQmlUnit = &lookupCachedUnit;

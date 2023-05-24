@@ -1,7 +1,7 @@
 //
 // Created by 17305 on 2023/4/6.
 //
-#include "GptResponseParseHelper.h"
+#include "include/GptResponseParseHelper.h"
 #include "qjsondocument.h"
 #include "qjsonvalue.h"
 #include "qjsonobject.h"

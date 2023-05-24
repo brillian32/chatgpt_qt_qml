@@ -1,7 +1,7 @@
 module chatgpt_qml
 typeinfo appchatgpt_qml.qmltypes
 prefer :/chatgpt_qml/
-Loading 1.0 Loading.qml
-MsgContent 1.0 MsgContent.qml
-SkinColor 1.0 SkinColor.qml
+Loading 1.0 qml/Loading.qml
+MsgContent 1.0 qml/MsgContent.qml
+SkinColor 1.0 qml/SkinColor.qml
 

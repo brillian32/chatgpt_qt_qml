@@ -3,7 +3,7 @@
 //
 
 #include "qobject.h"
-#include "openAIAPI.h"
+#include "include/openAIAPI.h"
 #include <QNetworkAccessManager>
 #include <QNetworkReply>
 #include <QNetworkRequest>
@@ -12,7 +12,7 @@
 #include <QJsonObject>
 #include <QNetworkProxy>
 #include <QJsonArray>
-#include "GptResponseParseHelper.h"
+#include "include/GptResponseParseHelper.h"
 openAIAPI::openAIAPI() {
 }
 

@@ -1020,27 +1020,27 @@
 	"HEADERS" : 
 	[
 		[
-			"C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/GptResponseParseHelper.h",
-			"Mu",
-			"EWIEGA46WW/moc_GptResponseParseHelper.cpp",
-			null
-		],
-		[
-			"C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/PostData.h",
-			"Mu",
-			"EWIEGA46WW/moc_PostData.cpp",
-			null
-		],
-		[
 			"C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/ddf_appchatgpt_qml.h",
 			"Mu",
 			"FP2RVU42XB/moc_ddf_appchatgpt_qml.cpp",
 			null
 		],
 		[
-			"C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/openAIAPI.h",
+			"C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/include/GptResponseParseHelper.h",
 			"Mu",
-			"EWIEGA46WW/moc_openAIAPI.cpp",
+			"6YEA5652QU/moc_GptResponseParseHelper.cpp",
+			null
+		],
+		[
+			"C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/include/PostData.h",
+			"Mu",
+			"6YEA5652QU/moc_PostData.cpp",
+			null
+		],
+		[
+			"C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/include/openAIAPI.h",
+			"Mu",
+			"6YEA5652QU/moc_openAIAPI.cpp",
 			null
 		]
 	],
@@ -1130,10 +1130,10 @@
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : 
 	[
-		"C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/.rcc/qmlcache/appchatgpt_qml_Loading_qml.cpp",
-		"C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/.rcc/qmlcache/appchatgpt_qml_MsgContent_qml.cpp",
-		"C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/.rcc/qmlcache/appchatgpt_qml_SkinColor_qml.cpp",
-		"C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/.rcc/qmlcache/appchatgpt_qml_main_qml.cpp",
+		"C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/.rcc/qmlcache/appchatgpt_qml_qml/Loading_qml.cpp",
+		"C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/.rcc/qmlcache/appchatgpt_qml_qml/MsgContent_qml.cpp",
+		"C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/.rcc/qmlcache/appchatgpt_qml_qml/SkinColor_qml.cpp",
+		"C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/.rcc/qmlcache/appchatgpt_qml_qml/main_qml.cpp",
 		"C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/.rcc/qrc_appchatgpt_qml_raw_qml_0.cpp",
 		"C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/.rcc/qrc_images.cpp",
 		"C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/.rcc/qrc_qmake_chatgpt_qml.cpp",
@@ -1159,27 +1159,27 @@
 	"SOURCES" : 
 	[
 		[
-			"C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/GptResponseParseHelper.cpp",
-			"Mu",
-			null
-		],
-		[
-			"C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/PostData.cpp",
-			"Mu",
-			null
-		],
-		[
 			"C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/cmake-build-debug-visual-studio2022/.rcc/qmlcache/appchatgpt_qml_qmlcache_loader.cpp",
 			"Mu",
 			null
 		],
 		[
-			"C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/main.cpp",
+			"C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/src/GptResponseParseHelper.cpp",
 			"Mu",
 			null
 		],
 		[
-			"C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/openAIAPI.cpp",
+			"C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/src/PostData.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/src/main.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/src/openAIAPI.cpp",
 			"Mu",
 			null
 		]

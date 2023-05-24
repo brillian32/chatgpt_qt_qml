@@ -4,17 +4,17 @@
     <CustomBuild Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\logo.png">
+    <Image Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\resource\logo.png">
       <Filter>Resources</Filter>
     </Image>
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\lang_zh.qm" />
+    <None Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\tools\lang_zh.qm" />
     <None Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\cmake-build-debug-visual-studio2022\chatgpt_qml\qmldir" />
-    <None Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\main.qml" />
-    <None Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\Loading.qml" />
-    <None Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\MsgContent.qml" />
-    <None Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\SkinColor.qml" />
+    <None Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\qml\main.qml" />
+    <None Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\qml\Loading.qml" />
+    <None Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\qml\MsgContent.qml" />
+    <None Include="C:\Users\17305\Documents\chatgpt_qml\chatgpt_qt_qml\qml\SkinColor.qml" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Resources">

@@ -1,6 +1,6 @@
 <RCC>
   <qresource prefix="/img">
-    <file alias="./logo.png">C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/./logo.png</file>
+    <file alias="resource/logo.png">C:/Users/17305/Documents/chatgpt_qml/chatgpt_qt_qml/resource/logo.png</file>
   </qresource>
 </RCC>
 

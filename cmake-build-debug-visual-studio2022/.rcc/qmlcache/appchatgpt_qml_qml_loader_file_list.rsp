@@ -1,4 +1,4 @@
-/chatgpt_qml/main.qml
-/chatgpt_qml/Loading.qml
-/chatgpt_qml/MsgContent.qml
-/chatgpt_qml/SkinColor.qml
+/chatgpt_qml/qml/main.qml
+/chatgpt_qml/qml/Loading.qml
+/chatgpt_qml/qml/MsgContent.qml
+/chatgpt_qml/qml/SkinColor.qml
