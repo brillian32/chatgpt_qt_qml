@@ -33,7 +33,9 @@ void openAIAPI::postRequest( )
 
     // 设置请求头部信息
     request.setHeader(QNetworkRequest::ContentTypeHeader, "application/json");
-    request.setRawHeader("Authorization", "Bearer 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");
+    
+    //todo: 自己填入openai api key
+    //request.setRawHeader("Authorization", "Bearer sk-*****************");
 
     m_postData.addSinglePostData("user",m_msg);
     QJsonDocument postDataJson(m_postData.getPostDatas());
