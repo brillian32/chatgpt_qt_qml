@@ -15,3 +15,5 @@ cmake-build-debug-visual-studio/Testing/Temporary/LastTest.log
 *.log
 *.user
 *.json
+cmake-build-release-1
+cmake-build-debug-visual-studio2022

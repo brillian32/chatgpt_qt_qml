@@ -29,7 +29,7 @@ Item{
     function replyError(arg1) {
         console.log("qml slot runing", arg1);
         var data = {
-            "role": qstr("Error"),
+            "role": qsTr("Error"),
             "msg": arg1,
             "back_color": loder_skin.item.error_color
         };
